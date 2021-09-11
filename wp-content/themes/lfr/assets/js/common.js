@@ -16,7 +16,7 @@ $(function() {
         );
         setTimeout(() => {
             animating_scroll = false;
-        }, 500);
+        }, 1000);
     });
 
     $(window).scroll(function() {
