@@ -251,6 +251,7 @@ body .din {
 .staff-name {
     font-size: 2rem;
     color: #9eb3c8;
+    font-family: 'DIN Alternate' !important;
 }
 
 .inner-container {
