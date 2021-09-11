@@ -120,6 +120,11 @@ wp_reset_postdata();
     <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-2@2x-50-scaled.jpg" alt="">
 </div>
 
+<div class="container">
+
+    forward_static_call
+</div>
+
 <?php
 
 get_footer();
