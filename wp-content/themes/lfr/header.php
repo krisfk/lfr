@@ -136,7 +136,7 @@ wp_reset_postdata();
 
                     </div>
 
-                    <div>
+                    <div class="d-flex">
                         <div class="container">
 
 
