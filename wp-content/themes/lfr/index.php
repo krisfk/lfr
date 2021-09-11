@@ -34,7 +34,7 @@ get_header();
                         alt=""></a>
             </div>
 
-            <div class="col-8">
+            <div class="col-8 text-end">
                 <ul class="top-menu-ul">
                     <?php
                 $main_menu = wp_get_menu_array('main menu');
