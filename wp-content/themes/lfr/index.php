@@ -117,7 +117,7 @@ get_header();
     <div class="big-title  text-center">CLIENT PROCESS</div>
 
     <div class="row justify-content-center   mt-4 g-0">
-        <div class="col-lg-6 col-md-10 col-sm-10 col-10 ">Our ability to deliver the best qualified candidates is driven
+        <div class="col-lg-6 col-md-11 col-sm-11 col-11 ">Our ability to deliver the best qualified candidates is driven
             by our experience and
             creativity combined
             with
@@ -149,7 +149,7 @@ get_header();
 
     <div class="mt-4">
         <div class="row justify-content-center g-0">
-            <div class="col-lg-6 col-md-10 col-sm-10 col-10 ">
+            <div class="col-lg-6 col-md-11 col-sm-11 col-11 ">
                 Our expertise spans the key revenue generating functions in the Investment Banks and Private Banks
                 and Asset
                 Management companies for both the traditional and hedge fund strategies, plus other asset classes such
