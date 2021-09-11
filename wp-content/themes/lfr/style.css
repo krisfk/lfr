@@ -115,6 +115,14 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'DIN Alternate';
+    src: url('./assets/fonts/DINAlternate-Bold.woff2') format('woff2'), url('./assets/fonts/DINAlternate-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     font-family: 'Myriad Pro' !important;
 }
