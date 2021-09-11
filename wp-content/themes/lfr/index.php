@@ -415,6 +415,34 @@ $(function() {
             console.log('services')
         }
 
+        if (nowPos > $('#client-process').offset().top - nh && nowPos < $('#expertise').offset()
+            .top -
+            nh) {
+            console.log('client-process')
+        }
+
+        if (nowPos > $('#expertise').offset().top - nh && nowPos < $('#the-team').offset()
+            .top -
+            nh) {
+            console.log('expertise')
+        }
+
+        if (nowPos > $('#the-team').offset().top - nh && nowPos < $('#contact-us').offset()
+            .top -
+            nh) {
+            console.log('the-team')
+        }
+
+
+        if (nowPos > $('#contact-us').offset()
+            .top -
+            nh) {
+            console.log('contact-us')
+        }
+
+
+
+
 
         // if (nowPos > $('#service').offset().top && nowPos < $('#client-process').offset().top) {
         //     console.log('service');
