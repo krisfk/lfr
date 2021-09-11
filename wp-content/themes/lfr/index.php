@@ -31,7 +31,7 @@ get_header();
 
 <div class="container  pt-5 pb-5" id="services">
 
-    <div class="big-title mb-5">SERVICES</div>
+    <div class="big-title mb-4">SERVICES</div>
 
     <div class="row justify-content-center">
         <div class="col-5 mb-4">
