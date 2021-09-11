@@ -1,4 +1,5 @@
 $(function() {
+    var animating_scroll = false;
     $('.top-menu-ul a').click(function(e) {
         // e.preventDefault(0);
         $('.top-menu-ul a').removeClass('active');
@@ -6,12 +7,17 @@ $(function() {
     });
 
     $('.top-menu-ul li a').click(function() {
+        animating_scroll = true;
         var goto = $(this).attr('rel');
         var nh = $('.fixed-navigation').height();
         console.log('#' + goto);
-        $('html, body').animate({ scrollTop: $('#' + goto).offset().top - nh },
-            200
-        );
+        $('html, body').animate({ scrollTop: $('#' + goto).offset().top - nh }, {
+            easing: 'swing',
+            duration: 200,
+            complete: function() {
+                alert('end ani');
+            },
+        });
     });
 
     $(window).scroll(function() {
