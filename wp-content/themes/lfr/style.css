@@ -235,3 +235,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     display: block;
     margin: 0 0 0.5rem 0;
 }
+
+.request-info-btn {
+    display: block;
+    background: #9eb3c8;
+    color: #fff;
+    padding: 1rem 2rem;
+}
