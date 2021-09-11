@@ -138,7 +138,7 @@ wp_reset_postdata();
 
                     </div>
 
-                    <div class="d-flex fixed-navigation">
+                    <div class="fixed-navigation">
                         <div class="container">
 
 
