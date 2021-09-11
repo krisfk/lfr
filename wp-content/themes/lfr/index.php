@@ -28,13 +28,13 @@ get_header();
 
         <div class="row">
 
-            <div class="col-3">
+            <div class="col-4">
 
                 <a class="logo-a" href="#"><img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-1@2x.png"
                         alt=""></a>
             </div>
 
-            <div class="col-9">
+            <div class="col-8">
                 <ul class="top-menu-ul">
                     <?php
                 $main_menu = wp_get_menu_array('main menu');
