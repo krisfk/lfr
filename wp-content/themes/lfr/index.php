@@ -398,6 +398,23 @@ $(function() {
         $(this).addClass('active');
     });
 
+    $(window).scroll(function() {
+
+        var nowPos = $(document).scrollTop();
+
+        if (nowPos < $('#services').offset().top) {
+            console.log('home');
+
+        }
+
+        if (nowPos < $('#client-process').offset().top && nowPos < $('#service').offset().top) {
+            console.log('service');
+
+        }
+
+
+    })
+
 
 })
 </script>
