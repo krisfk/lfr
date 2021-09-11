@@ -29,7 +29,7 @@ get_header();
     <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-2@2x-50-scaled.jpg" alt="">
 </div>
 
-<div class="container" id="services pt-5 pb-5">
+<div class="container  pt-5 pb-5" id="services">
 
     <div class="big-title ">SERVICES</div>
 
