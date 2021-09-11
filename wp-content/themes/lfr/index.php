@@ -232,7 +232,7 @@ wp_reset_postdata();
 </div>
 
 
-<div>
+<div class="mt-5">
 
     <div class="big-title">EXPERTISE</div>
 
