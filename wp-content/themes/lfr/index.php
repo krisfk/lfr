@@ -128,7 +128,8 @@ wp_reset_postdata();
         <div class="col-5">
 
             <div class="row">
-                <div class="col-4"><img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x.png" alt="">
+                <div class="col-4"><img class="w-100"
+                        src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x.png" alt="">
                 </div>
                 <div class="col-8">Identifying and closing on the most qualified talent based upon an agreed ideal
                     candidate specification
