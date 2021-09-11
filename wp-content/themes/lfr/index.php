@@ -254,7 +254,7 @@ wp_reset_postdata();
 
 <div class="mt-5 container">
 
-    <div class="row  expertise-row">
+    <div class="row  expertise-row mb-4">
 
         <div class="col-7">
             <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x-50.jpg" alt="">
@@ -271,12 +271,28 @@ wp_reset_postdata();
                 <li>Corporate Finance</li>
                 <li>Private Equity</li>
             </ul>
-
-
-
-
         </div>
     </div>
+    <div class="row  expertise-row mb-4">
+
+        <div class="col-7">
+            <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x-50.jpg" alt="">
+        </div>
+        <div class="col-5">
+
+            <div class="expertise-title">Investment Banking</div>
+            <ul>
+                <li>Equities (Sales, Trading, Research, and Prime Broking)</li>
+                <li>Equity Derivatives (Structuring, Trading and Sales)</li>
+                <li>Fixed Income (Structuring, Trading, Sales and Research)</li>
+                <li>Foreign Exchange (Sales, Trading and Research</li>
+                <li>Investment Banking and M&A (ECM and DCM)</li>
+                <li>Corporate Finance</li>
+                <li>Private Equity</li>
+            </ul>
+        </div>
+    </div>
+
 
 
 </div>
