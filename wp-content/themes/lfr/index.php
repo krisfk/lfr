@@ -205,9 +205,9 @@ wp_reset_postdata();
 <div class="position-relative blue-bg">
 
 
-    <div class="big-title mt-5 mb-5">CLIENT PROCESS</div>
+    <div class="big-title mt-5 mb-5 text-center">CLIENT PROCESS</div>
 
-    <div class="row justify-content-center text-center ">
+    <div class="row justify-content-center  ">
         <div class="col-8">Our ability to deliver the best qualified candidates is driven by our experience and
             creativity combined
             with
