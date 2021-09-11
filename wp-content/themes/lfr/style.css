@@ -168,5 +168,5 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .blue-bg {
     background: url(./assets/images/blue-bg.jpg);
-    background-size: contain;
+    background-size: cover;
 }
