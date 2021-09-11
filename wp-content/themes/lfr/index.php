@@ -29,9 +29,9 @@ get_header();
     <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-2@2x-50-scaled.jpg" alt="">
 </div>
 
-<div class="container" id="services">
+<div class="container" id="services pt-5 pb-5">
 
-    <div class="big-title mt-5 mb-5">SERVICES</div>
+    <div class="big-title ">SERVICES</div>
 
     <div class="row justify-content-center">
         <div class="col-5 mb-4">
