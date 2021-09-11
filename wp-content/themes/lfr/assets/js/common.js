@@ -22,8 +22,8 @@ $(function() {
 
     function update_nav_pos() {
         var nowPos = $(document).scrollTop();
-        var offset = 10;
-        var nh = $('.fixed-navigation').height() - offset;
+
+        var nh = $('.fixed-navigation').height();
         console.log(animating_scroll);
         if (!animating_scroll) {
             if (nowPos <= $('#services').offset().top - nh) {
