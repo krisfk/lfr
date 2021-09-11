@@ -254,7 +254,7 @@ wp_reset_postdata();
 
 <div class="mt-5 container">
 
-    <div class="row">
+    <div class="row  expertise-row">
 
         <div class="col-7">
             <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x-50.jpg" alt="">
