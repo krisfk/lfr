@@ -355,7 +355,7 @@ wp_reset_postdata();
 
 </div>
 
-<div class="team-div pt-5">
+<div class="team-div pt-5 pb-5">
 
 
     <div class="big-title">THE TEAM</div>
