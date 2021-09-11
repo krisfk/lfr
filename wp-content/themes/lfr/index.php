@@ -433,6 +433,52 @@ wp_reset_postdata();
     </div>
 
 </div>
+
+<div class="contact-us-div">
+
+    <div class="container">
+        <div class="big-title">CONTACT US</div>
+        <div class="row">
+            <div class="col-6">
+                <label for="full-name">Full Name</label>
+                <input id="full-name" type="text" class="form-control">
+            </div>
+            <div class="col-6">
+
+                <label for="location">Location</label>
+                <input id="location" type="text" class="form-control">
+            </div>
+            <div class="col-6">
+                <label for="email-address">Email Address</label>
+                <input id="email-address" type="text" class="form-control">
+            </div>
+            <div class="col-6">
+
+
+                <label for="company">Company</label>
+                <input id="company" type="text" class="form-control">
+
+            </div>
+
+            <div class="col-6">
+                <label for="phone-number">Phone Number</label>
+                <input id="phone-number" type="text" class="form-control">
+
+
+
+            </div>
+
+            <div class="col-6">
+                <label for="industry">Industry</label>
+                <input id="industry" type="text" class="form-control">
+
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
 <?php
 
 get_footer();
