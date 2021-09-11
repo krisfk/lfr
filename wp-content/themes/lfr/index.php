@@ -360,7 +360,7 @@ wp_reset_postdata();
 
     <div class="big-title">THE TEAM</div>
 
-    <div class="container">
+    <div class="container inner-container">
         <div class="row staff-row">
 
             <div class="col-3"><img class="w-100"
