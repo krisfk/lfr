@@ -202,7 +202,7 @@ wp_reset_postdata();
     </div>
 </div>
 
-<div class="position-relative">
+<div class="position-relative blue-bg">
 
 
     <div class="big-title mt-5 mb-5">CLIENT PROCESS</div>
