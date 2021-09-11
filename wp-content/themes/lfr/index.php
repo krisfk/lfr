@@ -468,7 +468,7 @@ wp_reset_postdata();
 
             </div>
 
-            <div class="col-6">
+            <div class="col-5 mb-4">
                 <label for="industry">Industry</label>
                 <input id="industry" type="text" class="form-control">
 
