@@ -158,4 +158,5 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .service-content-row .icon-col .service-name {
     display: block;
     color: #9eb3c8;
+    text-align: center;
 }
