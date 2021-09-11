@@ -305,15 +305,18 @@ wp_reset_postdata();
         </div>
         <div class=" col-5 g-0 ps-4">
 
-            <div class="expertise-title">Investment Banking</div>
+            <div class="expertise-title">Hedge Funds
+            </div>
             <ul>
-                <li>Equities (Sales, Trading, Research, and Prime Broking)</li>
-                <li>Equity Derivatives (Structuring, Trading and Sales)</li>
-                <li>Fixed Income (Structuring, Trading, Sales and Research)</li>
-                <li>Foreign Exchange (Sales, Trading and Research</li>
-                <li>Investment Banking and M&A (ECM and DCM)</li>
-                <li>Corporate Finance</li>
-                <li>Private Equity</li>
+
+                <li>Management (CEO, CIO, CFO COO CMO, CRO)</li>
+                <li>Portfolio Managers:</li>
+                <li>Variety of strategies including: Long Short, Absolute Return,
+                    Multi Strategy, Event Driven, Distressed Debt</li>
+                <li>Dealing & Execution</li>
+                <li>Sales and Marketing</li>
+                <li>Operations and Settlements</li>
+
             </ul>
         </div>
     </div>
