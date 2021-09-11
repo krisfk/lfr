@@ -13,9 +13,9 @@ $(function() {
         console.log('#' + goto);
         $('html, body').animate({ scrollTop: $('#' + goto).offset().top - nh }, {
             easing: 'swing',
-            duration: 5000,
+            duration: 200,
             complete: function() {
-                alert('end ani');
+                animating_scroll = false;
             },
         });
     });
@@ -23,55 +23,58 @@ $(function() {
     $(window).scroll(function() {
         var nowPos = $(document).scrollTop();
         var nh = $('.fixed-navigation').height();
-        if (nowPos < $('#services').offset().top - nh) {
-            $('.top-menu-ul a').removeClass('active');
-        }
 
-        if (
-            nowPos > $('#services').offset().top - nh &&
-            nowPos < $('#client-process').offset().top - nh
-        ) {
-            $('.top-menu-ul a').removeClass('active');
-            $('.top-menu-ul a.services').addClass('active');
-        }
+        if (!animating_scroll) {
+            if (nowPos < $('#services').offset().top - nh) {
+                $('.top-menu-ul a').removeClass('active');
+            }
 
-        if (
-            nowPos > $('#client-process').offset().top - nh &&
-            nowPos < $('#expertise').offset().top - nh
-        ) {
-            $('.top-menu-ul a').removeClass('active');
-            $('.top-menu-ul a.client-process').addClass('active');
-        }
+            if (
+                nowPos > $('#services').offset().top - nh &&
+                nowPos < $('#client-process').offset().top - nh
+            ) {
+                $('.top-menu-ul a').removeClass('active');
+                $('.top-menu-ul a.services').addClass('active');
+            }
 
-        if (
-            nowPos > $('#expertise').offset().top - nh &&
-            nowPos < $('#the-team').offset().top - nh
-        ) {
-            $('.top-menu-ul a').removeClass('active');
-            $('.top-menu-ul a.expertise').addClass('active');
-        }
+            if (
+                nowPos > $('#client-process').offset().top - nh &&
+                nowPos < $('#expertise').offset().top - nh
+            ) {
+                $('.top-menu-ul a').removeClass('active');
+                $('.top-menu-ul a.client-process').addClass('active');
+            }
 
-        if (
-            nowPos > $('#the-team').offset().top - nh &&
-            nowPos < $('#contact-us').offset().top - nh
-        ) {
-            $('.top-menu-ul a').removeClass('active');
-            $('.top-menu-ul a.the-team').addClass('active');
-        }
+            if (
+                nowPos > $('#expertise').offset().top - nh &&
+                nowPos < $('#the-team').offset().top - nh
+            ) {
+                $('.top-menu-ul a').removeClass('active');
+                $('.top-menu-ul a.expertise').addClass('active');
+            }
 
-        if (
-            nowPos >
-            $('#contact-us').offset().top -
-            nh -
-            ($(window).height() -
-                $('#contact-us').height() -
+            if (
+                nowPos > $('#the-team').offset().top - nh &&
+                nowPos < $('#contact-us').offset().top - nh
+            ) {
+                $('.top-menu-ul a').removeClass('active');
+                $('.top-menu-ul a.the-team').addClass('active');
+            }
+
+            if (
+                nowPos >
+                $('#contact-us').offset().top -
                 nh -
-                $('footer').height())
-        ) {
-            $('.top-menu-ul a').removeClass('active');
-            $('.top-menu-ul a.contact-us').addClass('active');
+                ($(window).height() -
+                    $('#contact-us').height() -
+                    nh -
+                    $('footer').height())
+            ) {
+                $('.top-menu-ul a').removeClass('active');
+                $('.top-menu-ul a.contact-us').addClass('active');
 
-            // console.log('contact-us');
+                // console.log('contact-us');
+            }
         }
 
         // if (nowPos > $('#service').offset().top && nowPos < $('#client-process').offset().top) {
