@@ -434,7 +434,7 @@ wp_reset_postdata();
 
 </div>
 
-<div class="contact-us-div">
+<div class="contact-us-div pt-5 pb-5">
 
     <div class="container">
         <div class="big-title">CONTACT US</div>
