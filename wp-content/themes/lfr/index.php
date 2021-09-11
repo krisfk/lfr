@@ -460,7 +460,7 @@ wp_reset_postdata();
 
             </div>
 
-            <div class="col-6">
+            <div class="col-5 mb-4">
                 <label for="phone-number">Phone Number</label>
                 <input id="phone-number" type="text" class="form-control">
 
