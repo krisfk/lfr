@@ -398,17 +398,20 @@ $(function() {
         $(this).addClass('active');
     });
 
+
     $(window).scroll(function() {
 
         var nowPos = $(document).scrollTop();
+        var nh = $('.fixed-navigation').height();
         // console.log(nowPos)
-        if (nowPos < $('#services').offset().top) {
+        if (nowPos < $('#services').offset().top - nh) {
             console.log('home')
 
         }
 
 
-        if (nowPos > $('#services').offset().top && nowPos < $('#client-process').offset().top) {
+        if (nowPos > $('#services').offset().top - nh && nowPos < $('#client-process').offset().top -
+            nh) {
             console.log('services')
         }
 
