@@ -25,44 +25,44 @@ $(function() {
         var nh = $('.fixed-navigation').height();
         console.log(animating_scroll);
         if (!animating_scroll) {
-            if (nowPos < $('#services').offset().top - nh) {
+            if (nowPos <= $('#services').offset().top - nh) {
                 $('.top-menu-ul a').removeClass('active');
             }
 
             if (
-                nowPos >= $('#services').offset().top - nh &&
-                nowPos < $('#client-process').offset().top - nh
+                nowPos > $('#services').offset().top - nh &&
+                nowPos <= $('#client-process').offset().top - nh
             ) {
                 $('.top-menu-ul a').removeClass('active');
                 $('.top-menu-ul a.services').addClass('active');
             }
 
             if (
-                nowPos >= $('#client-process').offset().top - nh &&
-                nowPos < $('#expertise').offset().top - nh
+                nowPos > $('#client-process').offset().top - nh &&
+                nowPos <= $('#expertise').offset().top - nh
             ) {
                 $('.top-menu-ul a').removeClass('active');
                 $('.top-menu-ul a.client-process').addClass('active');
             }
 
             if (
-                nowPos >= $('#expertise').offset().top - nh &&
-                nowPos < $('#the-team').offset().top - nh
+                nowPos > $('#expertise').offset().top - nh &&
+                nowPos <= $('#the-team').offset().top - nh
             ) {
                 $('.top-menu-ul a').removeClass('active');
                 $('.top-menu-ul a.expertise').addClass('active');
             }
 
             if (
-                nowPos >= $('#the-team').offset().top - nh &&
-                nowPos < $('#contact-us').offset().top - nh
+                nowPos > $('#the-team').offset().top - nh &&
+                nowPos <= $('#contact-us').offset().top - nh
             ) {
                 $('.top-menu-ul a').removeClass('active');
                 $('.top-menu-ul a.the-team').addClass('active');
             }
 
             if (
-                nowPos >=
+                nowPos >
                 $('#contact-us').offset().top -
                 nh -
                 ($(window).height() -
