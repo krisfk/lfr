@@ -361,7 +361,7 @@ wp_reset_postdata();
     <div class="big-title">THE TEAM</div>
 
     <div class="container inner-container">
-        <div class="row staff-row">
+        <div class="row staff-row mb-5">
 
             <div class="col-3"><img class="w-100"
                     src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-7@2x-50.jpg" alt="">
@@ -378,6 +378,41 @@ wp_reset_postdata();
                 </div>
             </div>
         </div>
+        <div class="row staff-row mb-5">
+
+            <div class="col-3"><img class="w-100"
+                    src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-7@2x-50.jpg" alt="">
+            </div>
+            <div class="col-9">
+
+                <div class="staff-name">Roger Leader – Director
+                </div>
+                <div class="mt-4">Roger is a Managing Director of LFR Hong Kong Limited, he has over 30 years of
+                    experience in
+                    Financial Services recruitment, with a successful track record recruiting for all levels of senior
+                    management within investment and private banks, asset management, both long only and hedge funds,
+                    private equity, insurance companies and other financial institutions.
+                </div>
+            </div>
+        </div>
+        <div class="row staff-row mb-5">
+
+            <div class="col-3"><img class="w-100"
+                    src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-7@2x-50.jpg" alt="">
+            </div>
+            <div class="col-9">
+
+                <div class="staff-name">Roger Leader – Director
+                </div>
+                <div class="mt-4">Roger is a Managing Director of LFR Hong Kong Limited, he has over 30 years of
+                    experience in
+                    Financial Services recruitment, with a successful track record recruiting for all levels of senior
+                    management within investment and private banks, asset management, both long only and hedge funds,
+                    private equity, insurance companies and other financial institutions.
+                </div>
+            </div>
+        </div>
+
     </div>
 
 </div>
