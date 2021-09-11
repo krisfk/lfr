@@ -10,14 +10,13 @@ $(function() {
         animating_scroll = true;
         var goto = $(this).attr('rel');
         var nh = $('.fixed-navigation').height();
-        console.log('#' + goto);
-        $('html, body').animate({ scrollTop: $('#' + goto).offset().top - nh }, {
-            easing: 'swing',
-            duration: 200,
-            complete: function() {
-                animating_scroll = false;
-            },
-        });
+        // console.log('#' + goto);
+        $('html, body').animate({ scrollTop: $('#' + goto).offset().top - nh },
+            200
+        );
+        setTimeout(() => {
+            animating_scroll = false;
+        }, 200);
     });
 
     $(window).scroll(function() {
