@@ -393,7 +393,7 @@ get_header();
 $(function() {
 
     $('.top-menu-ul a').click(function(e) {
-
+        e.preventDefault(0);
         $('.top-menu-ul a').removeClass('active');
         $(this).addClass('active');
     });
