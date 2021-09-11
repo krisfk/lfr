@@ -289,6 +289,10 @@ body .din {
     text-decoration: none;
 }
 
+.request-info-btn:hover {
+    color: #fff;
+}
+
 footer {
     background: #0033a1;
     color: #fff;
