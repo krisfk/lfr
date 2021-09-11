@@ -381,7 +381,7 @@ wp_reset_postdata();
         <div class="row staff-row mb-5">
 
             <div class="col-3"><img class="w-100"
-                    src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-7@2x-50.jpg" alt="">
+                    src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-8@2x-50.jpg" alt="">
             </div>
             <div class="col-9">
 
