@@ -232,14 +232,14 @@ wp_reset_postdata();
 </div>
 
 
-<div class="container">
+<div>
 
     <div class="big-title">EXPERTISE</div>
 
 
     <div class="mt-4">
         <div class="row justify-content-center ">
-            <div class="col-7">
+            <div class="col-6">
                 Our expertise spans the key revenue generating functions in the Investment Banks and Private Banks
                 and Asset
                 Management companies for both the traditional and hedge fund strategies, plus other asset classes such
