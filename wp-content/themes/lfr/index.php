@@ -206,20 +206,27 @@ wp_reset_postdata();
 
 
     <div class="big-title mt-5 mb-5">CLIENT PROCESS</div>
-    <div>Our ability to deliver the best qualified candidates is driven by our experience and creativity combined with
-        meticulous preparation before we begin each mandate. <br> <br>
 
-        The foundations of a successful search are prepared well before we begin an assignment. We constantly develop
-        our understanding of a client's business through regular discussions, meetings and our own ongoing research.
-        When we begin an assignment, we will already have an appreciation of key issues such as strategy, market
-        positioning, client culture, areas of competitive strength and opportunities for profitable growth we also
-        asses’ threats from fundamental shifts in the market place, and we always work to a consistent execution
-        process.<br><br>
+    <div class="row">
+        <div class="col-8">Our ability to deliver the best qualified candidates is driven by our experience and
+            creativity combined
+            with
+            meticulous preparation before we begin each mandate. <br> <br>
 
-        At the core of our search process is a fully integrated database with the details of over 100,000 key and
-        relevant professionals.<br>
-        In addition, for each mandate we also utilise a number of other candidate sources including real-time ‘on the
-        ground' discussions and intelligence gathering.
+            The foundations of a successful search are prepared well before we begin an assignment. We constantly
+            develop
+            our understanding of a client's business through regular discussions, meetings and our own ongoing research.
+            When we begin an assignment, we will already have an appreciation of key issues such as strategy, market
+            positioning, client culture, areas of competitive strength and opportunities for profitable growth we also
+            asses’ threats from fundamental shifts in the market place, and we always work to a consistent execution
+            process.<br><br>
+
+            At the core of our search process is a fully integrated database with the details of over 100,000 key and
+            relevant professionals.<br>
+            In addition, for each mandate we also utilise a number of other candidate sources including real-time ‘on
+            the
+            ground' discussions and intelligence gathering.
+        </div>
     </div>
     <!-- <img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-10@2x-50-scaled.jpg" alt=""> -->
 </div>
