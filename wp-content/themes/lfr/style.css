@@ -115,6 +115,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     font-display: swap;
 }
 
+body {
+    font-family: 'Myriad Pro';
+}
+
 .logo-a img {
     height: 50px;
 }
