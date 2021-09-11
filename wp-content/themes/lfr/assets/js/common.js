@@ -5,6 +5,11 @@ $(function() {
         $(this).addClass('active');
     });
 
+    $('.top-menu-ul li a').click(function() {
+        var goto = $(this).attr('rel');
+        $('html, body').animate({ scrollTop: 600 }, 200);
+    });
+
     $(window).scroll(function() {
         var nowPos = $(document).scrollTop();
         var nh = $('.fixed-navigation').height();
