@@ -53,6 +53,9 @@ $(function() {
                 nh -
                 $('footer').height())
         ) {
+            $('.top-menu-ul a').removeClass('active');
+            $('.top-menu-ul a.contact-us').addClass('active');
+
             // console.log('contact-us');
         }
 
