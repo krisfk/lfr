@@ -117,7 +117,8 @@ get_header();
     <div class="big-title  text-center">CLIENT PROCESS</div>
 
     <div class="row justify-content-center   mt-4 g-0">
-        <div class="col-6">Our ability to deliver the best qualified candidates is driven by our experience and
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">Our ability to deliver the best qualified candidates is driven
+            by our experience and
             creativity combined
             with
             meticulous preparation before we begin each mandate. <br> <br>
