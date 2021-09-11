@@ -124,7 +124,7 @@ wp_reset_postdata();
 
     <div class="big-title mt-5">SERVICES</div>
 
-    <div class="row">
+    <div class="row justify-content-center">
         <div class="col-5">f</div>
         <div class="col-5">f</div>
 
