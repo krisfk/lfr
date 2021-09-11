@@ -250,3 +250,16 @@ footer {
     background: #0033a1;
     color: #fff;
 }
+
+.sm-ul {
+    padding: 0;
+}
+
+.sm-ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.sm-ul li img {
+    height: 21px;
+}
