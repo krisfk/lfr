@@ -122,7 +122,7 @@ wp_reset_postdata();
 
 <div class="container">
 
-    <div class="big-title">SERVICES</div>
+    <div class="big-title mt-5">SERVICES</div>
 </div>
 
 <?php
