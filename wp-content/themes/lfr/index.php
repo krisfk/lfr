@@ -441,28 +441,28 @@ wp_reset_postdata();
         <div class="row mt-5 justify-content-center">
             <div class="col-5 mb-4">
                 <label for="full-name">Full Name</label>
-                <input id="full-name" type="text" class="form-control">
+                <input id="full-name" type="text" class="form-control" placeholder="Enter your full name here">
             </div>
             <div class="col-5 mb-4">
 
                 <label for="location">Location</label>
-                <input id="location" type="text" class="form-control">
+                <input id="location" type="text" class="form-control" placeholder="Enter your location here">
             </div>
             <div class="col-5 mb-4">
                 <label for="email-address">Email Address</label>
-                <input id="email-address" type="text" class="form-control">
+                <input id="email-address" type="text" class="form-control" placeholder="Enter your email address here">
             </div>
             <div class="col-5 mb-4">
 
 
                 <label for="company">Company</label>
-                <input id="company" type="text" class="form-control">
+                <input id="company" type="text" class="form-control" placeholder="Enter your companys name here">
 
             </div>
 
             <div class="col-5 mb-4">
                 <label for="phone-number">Phone Number</label>
-                <input id="phone-number" type="text" class="form-control">
+                <input id="phone-number" type="text" class="form-control" placeholder="Enter your phone number here">
 
 
 
@@ -470,7 +470,7 @@ wp_reset_postdata();
 
             <div class="col-5 mb-4">
                 <label for="industry">Industry</label>
-                <input id="industry" type="text" class="form-control">
+                <input id="industry" type="text" class="form-control" placeholder="Enter your companys industry here">
             </div>
 
 
