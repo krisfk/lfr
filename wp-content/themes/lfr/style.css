@@ -191,6 +191,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .expertise-row ul li {
     list-style-type: none;
+    line-height: 1.2;
 }
 
 .expertise-row ul li::before {
@@ -200,6 +201,6 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     height: 10px;
     display: block;
     position: relative;
-    top: -0.2rem;
+    top: -0.4rem;
     left: -1.2rem;
 }
