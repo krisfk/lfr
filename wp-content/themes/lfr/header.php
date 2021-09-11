@@ -106,7 +106,7 @@ echo '</ul>';
 }
 else
 {
-echo '<li><a class="level-1 '.$slug.' '.$class.'" href="'.$url.'">'.$title.'</a>';
+echo '<li><a ref="'.$class.'" class="level-1 '.$slug.' '.$class.'" href="'.$url.'">'.$title.'</a>';
 
 }
 echo'</li>';
