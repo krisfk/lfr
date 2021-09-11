@@ -125,7 +125,7 @@ wp_reset_postdata();
     <div class="big-title mt-5">SERVICES</div>
 
     <div class="row justify-content-center">
-        <div class="col-5">
+        <div class="col-5 service-div">
 
             <div class="row align-items-center service-content-row">
                 <div class="col-4 icon-col"><img class="w-100"
@@ -140,7 +140,7 @@ wp_reset_postdata();
                 </div>
             </div>
         </div>
-        <div class="col-5">f</div>
+        <div class="col-5  service-div">f</div>
 
     </div>
 </div>
