@@ -238,7 +238,7 @@ wp_reset_postdata();
 
 
     <div class="mt-4">
-        <div class="row justify-content-center ">
+        <div class="row justify-content-center g-0">
             <div class="col-6">
                 Our expertise spans the key revenue generating functions in the Investment Banks and Private Banks
                 and Asset
