@@ -122,7 +122,7 @@ wp_reset_postdata();
 
 <div class="container">
 
-    forward_static_call
+    <div class="big-title">SERVICES</div>
 </div>
 
 <?php
