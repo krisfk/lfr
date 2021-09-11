@@ -150,3 +150,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .service-content-row {
     background: #9eb3c8;
 }
+
+.service-content-row .icon-col {
+    background: #fff;
+}
