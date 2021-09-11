@@ -125,7 +125,16 @@ wp_reset_postdata();
     <div class="big-title mt-5">SERVICES</div>
 
     <div class="row justify-content-center">
-        <div class="col-5">f</div>
+        <div class="col-5">
+
+            <div class="row">
+                <div class="col-4"><img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x.png" alt="">
+                </div>
+                <div class="col-8">Identifying and closing on the most qualified talent based upon an agreed ideal
+                    candidate specification
+                </div>
+            </div>
+        </div>
         <div class="col-5">f</div>
 
     </div>
