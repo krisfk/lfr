@@ -7,7 +7,11 @@ $(function() {
 
     $('.top-menu-ul li a').click(function() {
         var goto = $(this).attr('rel');
-        $('html, body').animate({ scrollTop: 600 }, 200);
+        var nh = $('.fixed-navigation').height();
+
+        $('html, body').animate({ scrollTop: $('#' + goto).offset().top - nh },
+            200
+        );
     });
 
     $(window).scroll(function() {
