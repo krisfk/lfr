@@ -8,7 +8,7 @@ $(function() {
     $('.top-menu-ul li a').click(function() {
         var goto = $(this).attr('rel');
         var nh = $('.fixed-navigation').height();
-
+        console.log('#' + goto);
         $('html, body').animate({ scrollTop: $('#' + goto).offset().top - nh },
             200
         );
