@@ -185,4 +185,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .expertise-row ul li {}
 
-.expertise-row ul li::before {}
+.expertise-row ul li::before {
+    content: '\2022';
+    font-size: x-large;
+}
