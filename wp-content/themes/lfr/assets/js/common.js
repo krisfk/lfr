@@ -22,7 +22,8 @@ $(function() {
 
     function update_nav_pos() {
         var nowPos = $(document).scrollTop();
-        var nh = $('.fixed-navigation').height();
+        var offset = 10;
+        var nh = $('.fixed-navigation').height() - offset;
         console.log(animating_scroll);
         if (!animating_scroll) {
             if (nowPos <= $('#services').offset().top - nh) {
@@ -47,14 +48,14 @@ $(function() {
 
             if (
                 nowPos > $('#expertise').offset().top - nh &&
-                nowPos <= $('#the-team').offset().top - nh - 10
+                nowPos <= $('#the-team').offset().top - nh
             ) {
                 $('.top-menu-ul a').removeClass('active');
                 $('.top-menu-ul a.expertise').addClass('active');
             }
 
             if (
-                nowPos > $('#the-team').offset().top - nh - 10 &&
+                nowPos > $('#the-team').offset().top - nh &&
                 nowPos <= $('#contact-us').offset().top - nh
             ) {
                 $('.top-menu-ul a').removeClass('active');
