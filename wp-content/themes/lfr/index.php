@@ -29,16 +29,15 @@ get_header();
         <a class="logo-a" href="#"><img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-1@2x.png" alt=""></a>
 
 
+        fds
+        <ul class=" top-menu-ul ">
 
-        <ul class=" top-menu-ul col-10">
 
-            <li class="mobile-logo-li"> <a href="<?php echo get_site_url();?>" class="logo-a col-2">
-                    <img src="<?php echo get_template_directory_uri()?>/assets/images/logo-clean.png" alt="">
-                </a></li>
+
             <?php
                 $main_menu = wp_get_menu_array('main menu');
 foreach ($main_menu as $menu_item) {
-    echo 1;
+    // echo 1;
 
 $url = $menu_item['url'];
 $title = $menu_item['title'];
