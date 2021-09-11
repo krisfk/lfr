@@ -26,15 +26,17 @@ get_header();
     <div class="top-div">
 
 
-        <a class="logo-a" href="#"><img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-1@2x.png" alt=""></a>
+        <div class="row">
 
+            <div class="col-3">
 
+                <a class="logo-a" href="#"><img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-1@2x.png"
+                        alt=""></a>
+            </div>
 
-        <ul class=" top-menu-ul ">
-
-
-
-            <?php
+            <div class="col-9">
+                <ul class="top-menu-ul">
+                    <?php
                 $main_menu = wp_get_menu_array('main menu');
 foreach ($main_menu as $menu_item) {
     // echo 1;
@@ -58,7 +60,7 @@ echo '<li><a class="level-1 parent '.$class.'" href="'.$url.'">'.$title.'</a>';
 echo '<ul class="mobile-menu-submenu">';
 ?>
 
-            <?php
+                    <?php
 
 foreach ($menu_item['children'] as $sub_menu_item) 
 {
@@ -94,23 +96,20 @@ echo'</li>';
 
 
 
-            <?php
+                    <?php
 
 wp_reset_postdata(); 
 ?>
 
 
-        </ul>
+                </ul>
 
+                </ul>
 
+            </div>
 
-
-
-        </ul>
-
-
+        </div>
     </div>
-
 
 </div>
 
