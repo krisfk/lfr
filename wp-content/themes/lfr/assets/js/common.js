@@ -13,7 +13,7 @@ $(function() {
         console.log('#' + goto);
         $('html, body').animate({ scrollTop: $('#' + goto).offset().top - nh }, {
             easing: 'swing',
-            duration: 200,
+            duration: 5000,
             complete: function() {
                 alert('end ani');
             },
