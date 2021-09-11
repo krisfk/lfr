@@ -196,7 +196,7 @@ body .din {
 
 .service-content-row .icon-col .service-name {
     display: block;
-    font-family: 'DIN Alternate';
+    font-family: 'DIN Alternate' !important;
     color: #9eb3c8;
     text-align: center;
     font-weight: bold;
