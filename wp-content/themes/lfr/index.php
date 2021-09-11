@@ -123,6 +123,12 @@ wp_reset_postdata();
 <div class="container">
 
     <div class="big-title mt-5">SERVICES</div>
+
+    <div class="row">
+        <div class="col-5">f</div>
+        <div class="col-5">f</div>
+
+    </div>
 </div>
 
 <?php
