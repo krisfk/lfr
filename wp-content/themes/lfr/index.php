@@ -473,7 +473,8 @@ wp_reset_postdata();
                 <input id="industry" type="text" class="form-control">
             </div>
 
-            <div class="col-12">
+
+            <div class="col-12 text-center">
                 <a href="javascript:void(0);" class="request-info-btn">REQUEST INFO</a>
             </div>
         </div>
