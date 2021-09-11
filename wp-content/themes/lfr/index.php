@@ -388,7 +388,18 @@ get_header();
         </div>
     </div>
 </div>
-<script type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+
+    $('.top-menu-ul a').click(function(e) {
+
+        $('.top-menu-ul a').removeClass('active');
+        $(this).addClass('active');
+    });
+
+
+})
+</script>
 <?php
 
 get_footer();
