@@ -408,7 +408,7 @@ $(function() {
         }
 
 
-        if (nowPos > $('#services').offset().top && nowPos > $('#client-process').offset().top) {
+        if (nowPos > $('#services').offset().top && nowPos < $('#client-process').offset().top) {
             console.log('services')
         }
 
