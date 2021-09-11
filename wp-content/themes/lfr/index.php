@@ -149,7 +149,7 @@ get_header();
 
     <div class="mt-4">
         <div class="row justify-content-center g-0">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-10 col-sm-10 col-10 ">
                 Our expertise spans the key revenue generating functions in the Investment Banks and Private Banks
                 and Asset
                 Management companies for both the traditional and hedge fund strategies, plus other asset classes such
