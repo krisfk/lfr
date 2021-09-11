@@ -321,6 +321,32 @@ wp_reset_postdata();
         </div>
     </div>
 
+    <div class="row  expertise-row mb-4 gx-0">
+
+        <div class="col-5 g-0 ps-4">
+
+            <div class="expertise-title">Asset Management
+            </div>
+            <ul>
+
+
+                <li>Traditional Long Only</li>
+                <li>Management (CEO, CIO, CFO COO CMO, CRO)</li>
+                <li>Portfolio Managers</li>
+                <li>Investment Analyst</li>
+                <li>Dealing & Execution</li>
+                <li>Sales and Marketing</li>
+                <li>Operations and Settlements</li>
+            </ul>
+        </div>
+
+        <div class="col-7">
+            <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-6@2x-50.jpg" alt="">
+        </div>
+
+    </div>
+
+
 </div>
 <?php
 
