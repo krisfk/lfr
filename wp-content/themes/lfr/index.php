@@ -202,6 +202,10 @@ wp_reset_postdata();
     </div>
 </div>
 
+<div>
+    <img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-10@2x-50-scaled.jpg" alt="">
+</div>
+
 <?php
 
 get_footer();
