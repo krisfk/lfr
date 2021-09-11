@@ -38,6 +38,7 @@ get_header();
             <?php
                 $main_menu = wp_get_menu_array('main menu');
 foreach ($main_menu as $menu_item) {
+    echo 1;
 
 $url = $menu_item['url'];
 $title = $menu_item['title'];
