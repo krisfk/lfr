@@ -438,7 +438,7 @@ wp_reset_postdata();
 
     <div class="container">
         <div class="big-title">CONTACT US</div>
-        <div class="row mt-5">
+        <div class="row mt-5 justify-content-center">
             <div class="col-5 mb-4">
                 <label for="full-name">Full Name</label>
                 <input id="full-name" type="text" class="form-control">
