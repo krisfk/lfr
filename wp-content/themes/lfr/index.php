@@ -325,18 +325,24 @@ wp_reset_postdata();
 
         <div class="col-5 g-0 ps-4">
 
-            <div class="expertise-title">Asset Management
+
+
+
+
+            <div class="expertise-title"> Private Banking
             </div>
             <ul>
 
 
-                <li>Traditional Long Only</li>
-                <li>Management (CEO, CIO, CFO COO CMO, CRO)</li>
-                <li>Portfolio Managers</li>
-                <li>Investment Analyst</li>
-                <li>Dealing & Execution</li>
-                <li>Sales and Marketing</li>
-                <li>Operations and Settlements</li>
+
+                <li>Executive Management</li>
+                <li>Relationship Managers</li>
+                <li>Product Specialists</li>
+                <li>Investment Councillors</li>
+                <li>In House Portfolio Managers</li>
+                <li>Business Development</li>
+                <li>EAM Relationship Managers</li>
+
             </ul>
         </div>
 
