@@ -34,7 +34,7 @@ get_header();
     <div class="big-title mb-4">SERVICES</div>
 
     <div class="row justify-content-center">
-        <div class="col-lg-5 col-md-12 col-sm-12 col-12  mb-4">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12  mb-4">
 
             <div class="service-div">
                 <div class="row align-items-center service-content-row g-0">
@@ -54,7 +54,7 @@ get_header();
             </div>
         </div>
 
-        <div class="col-lg-5 col-md-12 col-sm-12 col-12  mb-4">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12  mb-4">
 
             <div class="service-div">
                 <div class="row align-items-center service-content-row g-0">
@@ -71,7 +71,7 @@ get_header();
             </div>
         </div>
 
-        <div class="col-lg-5 col-md-12 col-sm-12 col-12  mb-4">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12  mb-4">
 
             <div class="service-div">
                 <div class="row align-items-center service-content-row g-0">
@@ -89,7 +89,7 @@ get_header();
         </div>
 
 
-        <div class="col-lg-5 col-md-12 col-sm-12 col-12  mb-4">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12  mb-4">
 
             <div class="service-div">
                 <div class="row align-items-center service-content-row g-0">
