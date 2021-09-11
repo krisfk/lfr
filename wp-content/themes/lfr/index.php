@@ -18,7 +18,6 @@ get_header();
 
 
 ?>
-fds
 <?php
 
 get_footer();
