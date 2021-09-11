@@ -175,3 +175,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .expertise-title {
     color: #56687a;
 }
+
+.expertise-row {
+    background: #9eb3c8;
+    color: #fff;
+}
