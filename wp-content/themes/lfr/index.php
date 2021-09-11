@@ -168,12 +168,12 @@ wp_reset_postdata();
                 <div class="row align-items-center service-content-row g-0">
                     <div class="col-5 icon-col p-4"><img class="w-100"
                             src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-4@2x.png" alt="">
-                        <div class="service-name">Mapping</div>
+                        <div class="service-name">Benchmarking</div>
 
                     </div>
                     <div class="col-7 service-content-txt px-4">
-                        Comprehensive and accurate analysis of the industry professionals in a particular product or
-                        region based on client parameters
+                        Advising on appropriate compensation levels for the purposes of attracting talent, including
+                        annual bonus awards, international relocation and retention incentives
                     </div>
                 </div>
             </div>
@@ -186,12 +186,12 @@ wp_reset_postdata();
                 <div class="row align-items-center service-content-row g-0">
                     <div class="col-5 icon-col p-4"><img class="w-100"
                             src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-4@2x.png" alt="">
-                        <div class="service-name">Mapping</div>
+                        <div class="service-name">Competitor Analysis</div>
 
                     </div>
                     <div class="col-7 service-content-txt px-4">
-                        Comprehensive and accurate analysis of the industry professionals in a particular product or
-                        region based on client parameters
+                        Visibility on resourcing and headcount levels of peer businesses or products including their
+                        respective strategies, market share and performance
                     </div>
                 </div>
             </div>
