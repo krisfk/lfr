@@ -251,6 +251,18 @@ wp_reset_postdata();
         </div>
     </div>
 </div>
+
+<div class="mt-5">
+
+    <div class="row">
+
+        <div class="col-7">
+            <img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x-50.jpg" alt="">
+        </div>
+        <div class="col-5"></div>
+    </div>
+
+</div>
 <?php
 
 get_footer();
