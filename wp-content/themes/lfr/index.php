@@ -122,7 +122,7 @@ wp_reset_postdata();
 
 <div class="container">
 
-    <div class="big-title mt-5">SERVICES</div>
+    <div class="big-title mt-5 mb-5">SERVICES</div>
 
     <div class="row justify-content-center">
         <div class="col-5 mb-4">
