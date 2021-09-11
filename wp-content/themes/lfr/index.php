@@ -120,7 +120,7 @@ wp_reset_postdata();
     <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-2@2x-50-scaled.jpg" alt="">
 </div>
 
-<div class="container">
+<div class="container" id="services">
 
     <div class="big-title mt-5 mb-5">SERVICES</div>
 

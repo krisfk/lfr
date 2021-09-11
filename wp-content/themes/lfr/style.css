@@ -99,6 +99,22 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 /* Categories 01 to 03 are the basics. */
 
+@font-face {
+    font-family: 'DIN';
+    src: url('./assets/fonts/DINRegularAlternate.woff2') format('woff2'), url('./assets/fonts/DINRegularAlternate.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('./assets/fonts/MyriadPro-Regular.woff2') format('woff2'), url('./assets/fonts/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .logo-a img {
     height: 50px;
 }
@@ -117,6 +133,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .top-menu-ul li a {
     text-decoration: none;
     color: #606060;
+    font-family: 'Myriad Pro';
 }
 
 #page {
