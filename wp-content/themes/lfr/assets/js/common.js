@@ -23,7 +23,7 @@ $(function() {
     $(window).scroll(function() {
         var nowPos = $(document).scrollTop();
         var nh = $('.fixed-navigation').height();
-
+        console.log(animating_scroll);
         if (!animating_scroll) {
             if (nowPos < $('#services').offset().top - nh) {
                 $('.top-menu-ul a').removeClass('active');
