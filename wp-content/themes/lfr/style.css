@@ -259,6 +259,7 @@ footer {
 .sm-ul li {
     list-style-type: none;
     display: inline-block;
+    margin: 0 0 0 0.5rem;
 }
 
 .sm-ul li img {
