@@ -439,20 +439,20 @@ wp_reset_postdata();
     <div class="container">
         <div class="big-title">CONTACT US</div>
         <div class="row mt-5">
-            <div class="col-6">
+            <div class="col-6 mb-4">
                 <label for="full-name">Full Name</label>
                 <input id="full-name" type="text" class="form-control">
             </div>
-            <div class="col-6">
+            <div class="col-6 mb-4">
 
                 <label for="location">Location</label>
                 <input id="location" type="text" class="form-control">
             </div>
-            <div class="col-6">
+            <div class="col-6 mb-4">
                 <label for="email-address">Email Address</label>
                 <input id="email-address" type="text" class="form-control">
             </div>
-            <div class="col-6">
+            <div class="col-6 mb-4">
 
 
                 <label for="company">Company</label>
