@@ -115,7 +115,7 @@ wp_reset_postdata();
 
 <div class="position-relative">
 
-    <div>LFR Hong Kong Limited is an Executive Search Firm headquartered in Hong Kong, <br>
+    <div class="banner-text">LFR Hong Kong Limited is an Executive Search Firm headquartered in Hong Kong, <br>
         specialising in Financial Services, with a geographic focus on Asia Pacific. </div>
     <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-2@2x-50-scaled.jpg" alt="">
 </div>
