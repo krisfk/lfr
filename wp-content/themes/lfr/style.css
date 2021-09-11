@@ -182,3 +182,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     background: #9eb3c8;
     color: #fff;
 }
+
+.expertise-row ul li {}
+
+.expertise-row ul li::before {}
