@@ -317,3 +317,7 @@ footer {
 .sm-ul li img {
     height: 1.2rem;
 }
+
+.fixed-navigation {
+    display: none;
+}
