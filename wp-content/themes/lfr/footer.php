@@ -23,7 +23,7 @@
 
     <div class="container">
 
-        <div class="row">
+        <div class="row align-items-center">
 
             <div class="col-6">
                 LICENCE NO. 440245 <br>
