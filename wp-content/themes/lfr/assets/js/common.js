@@ -19,7 +19,7 @@ $(function() {
         }, 1000);
     });
 
-    $(window).scroll(function() {
+    function update_nav_pos() {
         var nowPos = $(document).scrollTop();
         var nh = $('.fixed-navigation').height();
         console.log(animating_scroll);
@@ -71,14 +71,10 @@ $(function() {
             ) {
                 $('.top-menu-ul a').removeClass('active');
                 $('.top-menu-ul a.contact-us').addClass('active');
-
-                // console.log('contact-us');
             }
         }
-
-        // if (nowPos > $('#service').offset().top && nowPos < $('#client-process').offset().top) {
-        //     console.log('service');
-
-        // }
+    }
+    $(window).scroll(function() {
+        update_nav_pos();
     });
 });
