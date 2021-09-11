@@ -202,6 +202,7 @@ body .din {
 .expertise-title {
     color: #56687a;
     font-size: 1.4rem;
+    font-family: 'DIN' !important;
     font-weight: bold;
     margin: 2rem 0 1rem 0;
 }
