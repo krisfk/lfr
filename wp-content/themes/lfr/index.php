@@ -434,10 +434,9 @@ $(function() {
         }
 
 
-        if (nowPos > $('#contact-us').offset()
-            .top -
-            nh) {
-            console.log('contact-us')
+        if (nowPos > $('#contact-us').offset().top - nh - ($(window).height() - $('#contact-us')
+                .height() - nh - $('footer').height())) {
+            console.log('contact-us');
         }
 
 
