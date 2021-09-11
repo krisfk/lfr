@@ -224,5 +224,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .contact-us-div {
     background: url(./assets/images/contact-us-bg.jpg);
     background-size: cover;
-    color: #fff;
+    color: #9eb3c8;
+}
+
+.contact-us-div .big-title {
+    color: #606060;
 }
