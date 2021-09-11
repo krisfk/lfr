@@ -282,6 +282,7 @@ body .din {
     display: inline-block;
     background: #9eb3c8;
     color: #fff;
+    font-family: 'DIN' !important;
     padding: 0.5rem 1rem;
     /* margin: 0 auto; */
     border-radius: 8px;
