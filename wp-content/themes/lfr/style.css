@@ -249,6 +249,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 footer {
     background: #0033a1;
     color: #fff;
+    font-size: 0.8rem;
 }
 
 .sm-ul {
@@ -259,9 +260,9 @@ footer {
 .sm-ul li {
     list-style-type: none;
     display: inline-block;
-    margin: 0 0 0 0.5rem;
+    margin: 0 0 0 0.7rem;
 }
 
 .sm-ul li img {
-    height: 21px;
+    height: 1.2rem;
 }
