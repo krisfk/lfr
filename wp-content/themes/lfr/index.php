@@ -474,7 +474,7 @@ wp_reset_postdata();
             </div>
 
 
-            <div class="col-12 text-center mt-5">
+            <div class="col-12 text-center mt-4">
                 <a href="javascript:void(0);" class="request-info-btn">REQUEST INFO</a>
             </div>
         </div>
