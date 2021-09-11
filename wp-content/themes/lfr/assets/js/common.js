@@ -17,7 +17,7 @@ $(function() {
         setTimeout(() => {
             animating_scroll = false;
             update_nav_pos();
-        }, 2000);
+        }, 1000);
     });
 
     function update_nav_pos() {
