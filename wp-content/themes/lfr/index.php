@@ -19,6 +19,7 @@ get_header();
 
 ?>
 
+<div class="nav-space"></div>
 
 
 <div class="position-relative banner-div">
