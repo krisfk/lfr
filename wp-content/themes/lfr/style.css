@@ -208,5 +208,6 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .team-div {
     background: url(./assets/images/team-bg.jpg);
     background-size: cover;
+    color: #fff;
     /* color: #fff; */
 }
