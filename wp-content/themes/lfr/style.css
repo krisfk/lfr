@@ -334,6 +334,16 @@ footer {
     margin: 98px 0 0 0;
 }
 
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 640px) {}
+
+@media screen and (max-width: 480px) {}
+
 
 /* .nav-space {
     display: block;
