@@ -38,7 +38,7 @@ get_header();
 
             <div class="service-div">
                 <div class="row align-items-center service-content-row g-0">
-                    <div class="col-5 icon-col p-5"><img class="w-75"
+                    <div class="col-5 icon-col p-4"><img class="w-75"
                             src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x.png" alt="">
                         <div class="service-name">Executive Search</div>
 
@@ -58,7 +58,7 @@ get_header();
 
             <div class="service-div">
                 <div class="row align-items-center service-content-row g-0">
-                    <div class="col-5 icon-col p-5"><img class="w-75"
+                    <div class="col-5 icon-col p-4"><img class="w-75"
                             src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-4@2x.png" alt="">
                         <div class="service-name">Mapping</div>
 
@@ -75,7 +75,7 @@ get_header();
 
             <div class="service-div">
                 <div class="row align-items-center service-content-row g-0">
-                    <div class="col-5 icon-col p-5"><img class="w-75"
+                    <div class="col-5 icon-col p-4"><img class="w-75"
                             src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-5@2x.png" alt="">
                         <div class="service-name">Benchmarking</div>
 
@@ -93,7 +93,7 @@ get_header();
 
             <div class="service-div">
                 <div class="row align-items-center service-content-row g-0">
-                    <div class="col-5 icon-col p-5"><img class="w-75"
+                    <div class="col-5 icon-col p-4"><img class="w-75"
                             src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-6@2x.png" alt="">
                         <div class="service-name">Competitor Analysis</div>
 
