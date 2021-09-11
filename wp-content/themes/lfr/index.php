@@ -401,16 +401,16 @@ $(function() {
     $(window).scroll(function() {
 
         var nowPos = $(document).scrollTop();
-        console.log(nowPos)
-        // if (nowPos < $('#services').offset.top) {
-        //     console.log('home');
+        // console.log(nowPos)
+        if (nowPos < $('#services').offset.top) {
+            console.log('home');
 
-        // }
+        }
 
-        // if (nowPos < $('#client-process').offset.top && nowPos < $('#service').offset.top) {
-        //     console.log('service');
+        if (nowPos > $('#service').offset.top && nowPos < $('#client-process').offset.top) {
+            console.log('service');
 
-        // }
+        }
 
 
     })
