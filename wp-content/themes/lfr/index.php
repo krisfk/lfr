@@ -141,7 +141,7 @@ get_header();
 </div>
 
 
-<div class="mt-5" id="expertise">
+<div class="pt-5 pb-5" id="expertise">
 
     <div class="big-title">EXPERTISE</div>
 
