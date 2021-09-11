@@ -232,7 +232,7 @@ wp_reset_postdata();
 </div>
 
 
-<div class="mt-5">
+<div class="mt-5" id="expertise">
 
     <div class="big-title">EXPERTISE</div>
 
@@ -355,7 +355,7 @@ wp_reset_postdata();
 
 </div>
 
-<div class="team-div pt-5 pb-5">
+<div class="team-div pt-5 pb-5" id="the-team">
 
 
     <div class="big-title">THE TEAM</div>
@@ -434,7 +434,7 @@ wp_reset_postdata();
 
 </div>
 
-<div class="contact-us-div pt-5 pb-5">
+<div class="contact-us-div pt-5 pb-5" id="contact-us">
 
     <div class="container">
         <div class="big-title">CONTACT US</div>
