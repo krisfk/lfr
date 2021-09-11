@@ -55,8 +55,8 @@ $(function() {
             }
 
             if (
-                nowPos > $('#the-team').offset().top - nh &&
-                nowPos <= $('#contact-us').offset().top - nh
+                nowPos > $('#the-team').offset().top - nh - offset &&
+                nowPos <= $('#contact-us').offset().top - nh - offset
             ) {
                 $('.top-menu-ul a').removeClass('active');
                 $('.top-menu-ul a.the-team').addClass('active');
