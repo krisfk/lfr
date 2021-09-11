@@ -407,10 +407,10 @@ $(function() {
 
         }
 
-        if (nowPos > $('#service').offset().top && nowPos < $('#client-process').offset().top) {
-            console.log('service');
+        // if (nowPos > $('#service').offset().top && nowPos < $('#client-process').offset().top) {
+        //     console.log('service');
 
-        }
+        // }
 
 
     })
