@@ -274,6 +274,10 @@ body .din {
     font-family: 'DIN Alternate' !important;
 }
 
+.contact-us-div input {
+    font-family: 'DIN' !important;
+}
+
 .request-info-btn {
     display: inline-block;
     background: #9eb3c8;
