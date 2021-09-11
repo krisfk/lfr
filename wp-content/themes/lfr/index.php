@@ -125,22 +125,30 @@ wp_reset_postdata();
     <div class="big-title mt-5">SERVICES</div>
 
     <div class="row justify-content-center">
-        <div class="col-5 service-div">
+        <div class="col-5 ">
 
-            <div class="row align-items-center service-content-row">
-                <div class="col-4 icon-col"><img class="w-100"
-                        src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x.png" alt="">
-                    <div class="service-name">Executive Search</div>
+            <div class="service-div">
+                <div class="row align-items-center service-content-row">
+                    <div class="col-4 icon-col"><img class="w-100"
+                            src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x.png" alt="">
+                        <div class="service-name">Executive Search</div>
 
-                </div>
-                <div class="col-8 service-content-txt">Identifying and closing on the most qualified talent based upon
-                    an
-                    agreed ideal
-                    candidate specification
+                    </div>
+                    <div class="col-8 service-content-txt">Identifying and closing on the most qualified talent based
+                        upon
+                        an
+                        agreed ideal
+                        candidate specification
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-5  service-div">f</div>
+        <div class="col-5 ">
+
+            <div class="service-div">
+
+            </div>
+        </div>
 
     </div>
 </div>
