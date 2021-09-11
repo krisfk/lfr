@@ -370,7 +370,8 @@ wp_reset_postdata();
 
                 <div class="staff-name">Roger Leader – Director
                 </div>
-                <div>Roger is a Managing Director of LFR Hong Kong Limited, he has over 30 years of experience in
+                <div class="mt-4">Roger is a Managing Director of LFR Hong Kong Limited, he has over 30 years of
+                    experience in
                     Financial Services recruitment, with a successful track record recruiting for all levels of senior
                     management within investment and private banks, asset management, both long only and hedge funds,
                     private equity, insurance companies and other financial institutions.
