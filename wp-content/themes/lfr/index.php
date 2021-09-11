@@ -402,12 +402,12 @@ $(function() {
 
         var nowPos = $(document).scrollTop();
         // console.log(nowPos)
-        if (nowPos < $('#services').offset.top) {
+        if (nowPos < $('#services').offset().top) {
             console.log('home');
 
         }
 
-        if (nowPos > $('#service').offset.top && nowPos < $('#client-process').offset.top) {
+        if (nowPos > $('#service').offset().top && nowPos < $('#client-process').offset().top) {
             console.log('service');
 
         }
