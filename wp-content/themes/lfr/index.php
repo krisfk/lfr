@@ -236,12 +236,19 @@ wp_reset_postdata();
 
     <div class="big-title">EXPERTISE</div>
 
-    <div class="mt-4">Our expertise spans the key revenue generating functions in the Investment Banks and Private Banks
-        and Asset
-        Management companies for both the traditional and hedge fund strategies, plus other asset classes such as
-        Private Equity and Real Estate. <br> <br>
 
-        A detailed list is summarised as follows.
+    <div class="mt-4">
+        <div class="row">
+            <div class="col-6">
+                Our expertise spans the key revenue generating functions in the Investment Banks and Private Banks
+                and Asset
+                Management companies for both the traditional and hedge fund strategies, plus other asset classes such
+                as
+                Private Equity and Real Estate. <br> <br>
+
+                A detailed list is summarised as follows.
+            </div>
+        </div>
     </div>
 </div>
 <?php
