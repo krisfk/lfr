@@ -47,7 +47,7 @@ $(function() {
 
             if (
                 nowPos > $('#expertise').offset().top - nh &&
-                nowPos <= $('#the-team').offset().top - nh
+                nowPos <= $('#the-team').offset().top - nh - 10
             ) {
                 $('.top-menu-ul a').removeClass('active');
                 $('.top-menu-ul a.expertise').addClass('active');
