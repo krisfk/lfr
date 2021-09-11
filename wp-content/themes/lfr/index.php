@@ -125,7 +125,7 @@ wp_reset_postdata();
     <div class="big-title mt-5">SERVICES</div>
 
     <div class="row justify-content-center">
-        <div class="col-5 ">
+        <div class="col-5 mb-5">
 
             <div class="service-div">
                 <div class="row align-items-center service-content-row g-0">
@@ -145,7 +145,7 @@ wp_reset_postdata();
             </div>
         </div>
 
-        <div class="col-5 ">
+        <div class="col-5 mb-5">
 
             <div class="service-div">
                 <div class="row align-items-center service-content-row g-0">
@@ -162,7 +162,7 @@ wp_reset_postdata();
             </div>
         </div>
 
-        <div class="col-5 ">
+        <div class="col-5 mb-5">
 
             <div class="service-div">
                 <div class="row align-items-center service-content-row g-0">
@@ -180,7 +180,7 @@ wp_reset_postdata();
         </div>
 
 
-        <div class="col-5 ">
+        <div class="col-5 mb-5 ">
 
             <div class="service-div">
                 <div class="row align-items-center service-content-row g-0">
