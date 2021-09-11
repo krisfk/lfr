@@ -231,6 +231,19 @@ wp_reset_postdata();
     <!-- <img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-10@2x-50-scaled.jpg" alt=""> -->
 </div>
 
+
+<div class="container">
+
+    <div class="big-title">EXPERTISE</div>
+
+    <div class="mt-4">Our expertise spans the key revenue generating functions in the Investment Banks and Private Banks
+        and Asset
+        Management companies for both the traditional and hedge fund strategies, plus other asset classes such as
+        Private Equity and Real Estate. <br> <br>
+
+        A detailed list is summarised as follows.
+    </div>
+</div>
 <?php
 
 get_footer();
