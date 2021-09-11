@@ -26,7 +26,7 @@ get_header();
     <div class="top-div">
 
 
-        <a class="logo-a" href="#"><img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-1@2x.png" alt=""></a>
+        <!-- <a class="logo-a" href="#"><img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-1@2x.png" alt=""></a> -->
 
 
         fds
