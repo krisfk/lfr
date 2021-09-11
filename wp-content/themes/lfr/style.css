@@ -150,6 +150,7 @@ body .din {
     text-decoration: none;
     color: #606060;
     font-family: 'Myriad Pro';
+    padding: 0 0 0.3rem 0;
 }
 
 .top-menu-ul li a.active {
