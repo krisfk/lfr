@@ -129,12 +129,12 @@ wp_reset_postdata();
 
             <div class="service-div">
                 <div class="row align-items-center service-content-row g-0">
-                    <div class="col-4 icon-col p-4"><img class="w-100"
+                    <div class="col-5 icon-col p-4"><img class="w-100"
                             src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x.png" alt="">
                         <div class="service-name">Executive Search</div>
 
                     </div>
-                    <div class="col-8 service-content-txt px-4">Identifying and closing on the most qualified talent
+                    <div class="col-7 service-content-txt px-4">Identifying and closing on the most qualified talent
                         based
                         upon
                         an
@@ -149,12 +149,12 @@ wp_reset_postdata();
 
             <div class="service-div">
                 <div class="row align-items-center service-content-row g-0">
-                    <div class="col-4 icon-col p-4"><img class="w-100"
+                    <div class="col-5 icon-col p-4"><img class="w-100"
                             src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-4@2x.png" alt="">
                         <div class="service-name">Mapping</div>
 
                     </div>
-                    <div class="col-8 service-content-txt px-4">
+                    <div class="col-7 service-content-txt px-4">
                         Comprehensive and accurate analysis of the industry professionals in a particular product or
                         region based on client parameters
                     </div>
