@@ -134,7 +134,8 @@ wp_reset_postdata();
                         <div class="service-name">Executive Search</div>
 
                     </div>
-                    <div class="col-8 service-content-txt px-4">Identifying and closing on the most qualified talent
+                    <div class="col-8 service-content-txt pt-4 pb-4">Identifying and closing on the most qualified
+                        talent
                         based
                         upon
                         an
