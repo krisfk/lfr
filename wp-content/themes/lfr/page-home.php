@@ -120,12 +120,43 @@ if( have_rows('expertises_detail') )
 
         if($idx%2 ==0)
         {
-                echo 'odd';
+            ?>
+    <div class="row  expertise-row mt-4 gx-0">
+
+        <div class="col-lg-7 col-md-12 col-sm-12 col-12 ">
+            <img class="w-100"
+                src="<?php echo  wp_get_attachment_image_src(get_sub_field('expertise_img'),'Full')[0];?>" alt="">
+        </div>
+        <div class=" col-lg-5 col-md-12 col-sm-12 col-12  g-0 ps-4 pb-5">
+
+            <div class="expertise-title"><?php echo get_sub_field('expertise_title');?></div>
+            <?php echo get_sub_field('expertise_content');?>
+
+        </div>
+    </div>
+    <?php
         }
         else
         {
 
-            echo 'e';
+            ?>
+    <div class="row  expertise-row mt-4 gx-0 mobile-reverse">
+
+        <div class=" col-lg-5 col-md-12 col-sm-12 col-12  g-0 ps-4 pb-5">
+
+            <div class="expertise-title"><?php echo get_sub_field('expertise_title');?>
+            </div>
+            <?php echo get_sub_field('expertise_content');?>
+
+        </div>
+
+        <div class="col-lg-7 col-md-12 col-sm-12 col-12 ">
+            <img class="w-100"
+                src="<?php echo  wp_get_attachment_image_src(get_sub_field('expertise_img'),'Full')[0];?>" alt="">
+        </div>
+
+    </div>
+    <?php
         }
 
     
