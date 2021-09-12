@@ -34,7 +34,42 @@ get_header();
     <div class="big-title mb-4">SERVICES</div>
 
     <div class="row justify-content-center">
+
+
+        <?php
+
+if( have_rows('services') )
+{
+    // Loop through rows.
+    while( have_rows('services') ) { 
+        the_row();
+        ?>
+
         <div class="service-table-wrapper col-lg-6 col-md-12 col-sm-12 col-12  mb-4">
+            <table class="service-table ">
+                <tr>
+                    <td class="icon-td p-3">
+                        <img class="w-75"
+                            src="<?php echo  wp_get_attachment_image_src(get_sub_field('service_img'),'Full')[0];?>"
+                            alt="">
+                        <div class="service-name"><?php echo get_sub_field('service_name');?></div>
+
+                    </td>
+                    <td class="content-td">
+                        <?php
+                        echo get_sub_field('service_content_txt');
+                        ?>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <?php
+
+    }
+}
+        ?>
+        <!-- <div class="service-table-wrapper col-lg-6 col-md-12 col-sm-12 col-12  mb-4">
             <table class="service-table ">
                 <tr>
                     <td class="icon-td p-3">
@@ -99,7 +134,7 @@ get_header();
                     </td>
                 </tr>
             </table>
-        </div>
+        </div> -->
 
     </div>
 
