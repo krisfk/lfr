@@ -5,8 +5,18 @@ $(function () {
     $('.top-menu-ul a').removeClass('active');
     $(this).addClass('active');
   });
+  $('.logo-a').click(function () {
+    $('body').removeClass('show-mobile-menu');
+    $('.mobile-menu-btn').removeClass('open');
+    animating_scroll = true;
 
-  $('.top-menu-ul li a,.logo-a').click(function () {
+    setTimeout(() => {
+      animating_scroll = false;
+      update_nav_pos();
+    }, 1000);
+  });
+
+  $('.top-menu-ul li a').click(function () {
     $('body').removeClass('show-mobile-menu');
     $('.mobile-menu-btn').removeClass('open');
     animating_scroll = true;
