@@ -274,8 +274,8 @@ get_header();
     <div class="container inner-container mt-4">
         <div class="row staff-row mb-5">
 
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12 "><img class="w-100"
-                    src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-7@2x-50.jpg" alt="">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12 ">
+                <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-7@2x-50.jpg" alt="">
             </div>
             <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
 
@@ -291,10 +291,10 @@ get_header();
         </div>
         <div class="row staff-row mb-5">
 
-            <div class="col-3"><img class="w-100"
-                    src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-8@2x-50.jpg" alt="">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12 ">
+                <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-8@2x-50.jpg" alt="">
             </div>
-            <div class="col-9">
+            <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
 
                 <div class="staff-name">Michelle Ng - Consultant
 
@@ -309,10 +309,10 @@ get_header();
         </div>
         <div class="row staff-row mb-5">
 
-            <div class="col-3"><img class="w-100"
-                    src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-9@2x-50.jpg" alt="">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12 ">
+                <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-9@2x-50.jpg" alt="">
             </div>
-            <div class="col-9">
+            <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
 
                 <div class="staff-name">Zen Fong – Crypto Currency and Blockchain Consultant
                 </div>
@@ -325,10 +325,10 @@ get_header();
         </div>
         <div class="row staff-row mb-5">
 
-            <div class="col-3"><img class="w-100"
-                    src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-10@2x-50-1.jpg" alt="">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12 ">
+                <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-10@2x-50-1.jpg" alt="">
             </div>
-            <div class="col-9">
+            <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
 
                 <div class="staff-name">Ginny Tjiu - Researcher
                 </div>
