@@ -40,7 +40,6 @@ get_header();
 
 if( have_rows('services') )
 {
-    // Loop through rows.
     while( have_rows('services') ) { 
         the_row();
         ?>
@@ -110,6 +109,30 @@ if( have_rows('services') )
 </div>
 
 <div class="mt-0 container pb-5">
+
+    <?php
+
+$idx=0;
+if( have_rows('expertises_detail') )
+{
+    while( have_rows('expertises_detail') ) { 
+        the_row();
+
+        if($idx%2 ==0)
+        {
+                echo 'odd';
+        }
+        else
+        {
+
+            echo 'e';
+        }
+
+    
+        $idx++;
+    }
+}
+?>
 
     <div class="row  expertise-row mt-4 gx-0">
 
