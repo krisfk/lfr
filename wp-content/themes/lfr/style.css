@@ -341,7 +341,7 @@ footer {
 }
 
 #nav-icon3 {
-  width: 60px;
+  width: 50px;
   height: 45px;
   position: relative;
   margin: 50px auto;
@@ -354,14 +354,15 @@ footer {
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   cursor: pointer;
+  zoom: 0.5;
 }
 
 #nav-icon3 span {
   display: block;
   position: absolute;
-  height: 9px;
+  height: 5px;
   width: 100%;
-  background: #d3531a;
+  background: #153d89;
   border-radius: 9px;
   opacity: 1;
   left: 0;
