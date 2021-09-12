@@ -58,15 +58,12 @@ get_header();
                 <tr>
                     <td class="icon-td p-3">
                         <img class="w-75" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-4@2x.png" alt="">
-                        <div class="service-name">Executive Search</div>
+                        <div class="service-name">Mapping</div>
 
                     </td>
-                    <td class="content-td">Identifying and closing on the most qualified talent
-                        based
-                        upon
-                        an
-                        agreed ideal
-                        candidate specification</td>
+                    <td class="content-td">Comprehensive and accurate analysis of the industry professionals in a
+                        particular product or region based on client parameters
+                    </td>
                 </tr>
             </table>
         </div>
