@@ -34,7 +34,7 @@ $(function () {
       }
 
       if (
-        nowPos > $('#services').offset().top - nh &&
+        nowPos > $('#services').offset().top - nh - 10 &&
         nowPos <= $('#client-process').offset().top - nh
       ) {
         $('.top-menu-ul a').removeClass('active');
