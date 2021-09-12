@@ -347,6 +347,9 @@ footer {
   .logo-a img {
     height: 2rem;
   }
+  .top-menu-ul {
+    display: none;
+  }
   .staff-row img {
     max-width: 300px;
     margin: 0 auto 1rem auto;
