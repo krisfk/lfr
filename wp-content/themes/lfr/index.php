@@ -103,7 +103,7 @@ get_header();
 
     </div>
 
-
+    <!-- 
     <div class="row justify-content-center">
         <div class="col-lg-6 col-md-12 col-sm-12 col-12  mb-4">
 
@@ -179,7 +179,7 @@ get_header();
 
 
 
-    </div>
+    </div> -->
 </div>
 
 <div class="position-relative blue-bg pt-5 pb-5 mt-5" id="client-process">
