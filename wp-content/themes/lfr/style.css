@@ -132,6 +132,10 @@ body .din {
   font-family: 'DIN' !important;
 }
 
+.logo-a {
+  display: inline-block;
+}
+
 .logo-a img {
   height: 50px;
 }
