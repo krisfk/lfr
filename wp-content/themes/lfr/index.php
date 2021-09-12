@@ -232,7 +232,7 @@ get_header();
         </div>
     </div>
 
-    <div class="row  expertise-row mt-4 gx-0">
+    <div class="row  expertise-row mt-4 gx-0 mobile-reverse">
 
         <div class=" col-lg-5 col-md-12 col-sm-12 col-12  g-0 ps-4 pb-5">
 
