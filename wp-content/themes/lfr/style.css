@@ -535,6 +535,11 @@ footer {
     padding: 2.2rem 1.5rem;
     text-shadow: #153d89 0px 0px 7px, #153d89 0px 0px 7px, #153d89 0px 0px 7px;
   }
+  .sm-ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 0 0 0.5rem;
+  }
 }
 
 /* .nav-space {
