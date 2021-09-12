@@ -57,7 +57,7 @@ get_header();
             <table class="service-table ">
                 <tr>
                     <td class="icon-td p-3">
-                        <img class="w-75" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x.png" alt="">
+                        <img class="w-75" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-4@2x.png" alt="">
                         <div class="service-name">Executive Search</div>
 
                     </td>
