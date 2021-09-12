@@ -442,11 +442,13 @@ footer {
 
 .service-table .icon-td {
   background: #fff;
+  width: 40%;
 }
 
 .service-table .content-td {
   background: #9eb3c8;
   color: #56595b;
+  width: 60%;
 }
 
 .service-table .service-name {
