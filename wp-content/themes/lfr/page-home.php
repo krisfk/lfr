@@ -215,28 +215,34 @@ if( have_rows('teammates') )
             <div class="col-lg-5 col-md-5 col-sm-12 col-12  mb-4">
                 <label for="full-name">Full Name</label>
                 <input id="full-name" type="text" class="form-control" placeholder="Enter your full name here">
-                <div class="form-error name-error text-danger mt-2">此欄必須填寫</div>
+                <div class="form-error name-error text-danger mt-2">Please enter your full name.</div>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-12 col-12  mb-4">
 
                 <label for="location">Location</label>
                 <input id="location" type="text" class="form-control" placeholder="Enter your location here">
+                <div class="form-error name-error text-danger mt-2">Please enter your location.</div>
+
             </div>
             <div class="col-lg-5 col-md-5 col-sm-12 col-12  mb-4">
                 <label for="email-address">Email Address</label>
                 <input id="email-address" type="text" class="form-control" placeholder="Enter your email address here">
+                <div class="form-error name-error text-danger mt-2">Please enter your email address.</div>
+
             </div>
             <div class="col-lg-5 col-md-5 col-sm-12 col-12  mb-4">
 
 
                 <label for="company">Company</label>
                 <input id="company" type="text" class="form-control" placeholder="Enter your companys name here">
+                <div class="form-error name-error text-danger mt-2">Please enter your company name.</div>
 
             </div>
 
             <div class="col-lg-5 col-md-5 col-sm-12 col-12  mb-4">
                 <label for="phone-number">Phone Number</label>
                 <input id="phone-number" type="text" class="form-control" placeholder="Enter your phone number here">
+                <div class="form-error name-error text-danger mt-2">The phone number input is not correct.</div>
 
 
 
