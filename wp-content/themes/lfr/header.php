@@ -63,6 +63,13 @@
                                     </div>
 
                                     <div class="col-8 text-end">
+
+                                        <div id="nav-icon3" class="">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
                                         <ul class="top-menu-ul">
                                             <?php
 $main_menu = wp_get_menu_array('main menu');
