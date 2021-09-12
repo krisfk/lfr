@@ -8,6 +8,7 @@ $(function () {
 
   $('.top-menu-ul li a').click(function () {
     $('body').removeClass('show-mobile-menu');
+    $('.mobile-menu-btn').removeClass('open');
     animating_scroll = true;
     var goto = $(this).attr('rel');
     var nh = $('.fixed-navigation').height();
