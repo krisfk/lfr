@@ -354,7 +354,7 @@ footer {
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   cursor: pointer;
-  /* zoom: 0.5; */
+  zoom: 0.5;
 }
 
 #nav-icon3 span {
