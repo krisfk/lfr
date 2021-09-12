@@ -438,11 +438,13 @@ footer {
 }
 
 .service-table {
+  border: 1px solid #566879;
 }
 
 .service-table .icon-td {
   background: #fff;
   width: 40%;
+  text-align: center;
 }
 
 .service-table .content-td {
