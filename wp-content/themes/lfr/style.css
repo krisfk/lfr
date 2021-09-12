@@ -344,6 +344,9 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
+  .logo-a img {
+    height: 2rem;
+  }
   .staff-row img {
     max-width: 300px;
     margin: 0 auto 1rem auto;
