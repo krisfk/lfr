@@ -69,6 +69,7 @@ if( have_rows('services') )
     }
 }
         ?>
+        f
         <!-- <div class="service-table-wrapper col-lg-6 col-md-12 col-sm-12 col-12  mb-4">
             <table class="service-table ">
                 <tr>
