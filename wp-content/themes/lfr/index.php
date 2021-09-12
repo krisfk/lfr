@@ -33,6 +33,24 @@ get_header();
 
     <div class="big-title mb-4">SERVICES</div>
 
+
+    <table>
+        <tr>
+            <td>
+                <img class="w-75" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x.png" alt="">
+                <div class="service-name">Executive Search</div>
+
+            </td>
+            <td>Identifying and closing on the most qualified talent
+                based
+                upon
+                an
+                agreed ideal
+                candidate specification</td>
+        </tr>
+    </table>
+
+
     <div class="row justify-content-center">
         <div class="col-lg-6 col-md-12 col-sm-12 col-12  mb-4">
 
