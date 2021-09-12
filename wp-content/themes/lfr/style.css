@@ -493,6 +493,9 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
+  .staff-name {
+    font-size: 1.5rem;
+  }
   .big-title {
     font-size: 1.5rem;
   }
