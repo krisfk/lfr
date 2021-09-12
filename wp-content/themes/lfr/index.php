@@ -83,6 +83,23 @@ get_header();
                 </tr>
             </table>
         </div>
+        <div class="service-table-wrapper col-lg-6 col-md-12 col-sm-12 col-12  mb-4">
+            <table class="service-table ">
+                <tr>
+                    <td class="icon-td p-3">
+                        <img class="w-75" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-6@2x.png" alt="">
+                        <div class="service-name">Competitor Analysis
+
+                        </div>
+
+                    </td>
+                    <td class="content-td">Visibility on resourcing and headcount levels of peer businesses or products
+                        including their respective strategies, market share and performance
+
+                    </td>
+                </tr>
+            </table>
+        </div>
 
     </div>
 
