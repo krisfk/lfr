@@ -41,7 +41,7 @@ get_header();
                 <div class="service-name">Executive Search</div>
 
             </td>
-            <td class="content-d">Identifying and closing on the most qualified talent
+            <td class="content-td">Identifying and closing on the most qualified talent
                 based
                 upon
                 an
