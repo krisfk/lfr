@@ -83,7 +83,7 @@ $(function () {
             $('#contact-us').height() -
             nh -
             $('footer').height()) -
-          10
+          20
       ) {
         $('.top-menu-ul a').removeClass('active');
         $('.top-menu-ul a.contact-us').addClass('active');
