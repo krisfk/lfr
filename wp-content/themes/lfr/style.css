@@ -449,6 +449,14 @@ footer {
   color: #56595b;
 }
 
+.service-table .service-name {
+  display: block;
+  font-family: 'DIN Alternate' !important;
+  color: #9eb3c8;
+  text-align: center;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 1200px) {
   .mobile-menu-btn {
     display: block;
