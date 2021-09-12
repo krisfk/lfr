@@ -7,6 +7,7 @@ $(function () {
   });
 
   $('.top-menu-ul li a').click(function () {
+    $('body').removeClass('show-mobile-menu');
     animating_scroll = true;
     var goto = $(this).attr('rel');
     var nh = $('.fixed-navigation').height();
