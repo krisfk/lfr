@@ -476,7 +476,8 @@ footer {
     z-index: 1000;
     margin: 0;
     background: rgb(255 255 255 / 95%);
-    padding: 5.5rem 0 0 1.5rem;
+    padding: 7.5rem 0 0 0;
+    /* text-align: center; */
   }
   .show-mobile-menu .top-menu-ul {
     display: block;
@@ -486,7 +487,8 @@ footer {
     width: 100%;
     margin: 0 0 1rem 0;
     padding: 0;
-    text-align: left;
+    font-size: 1.5rem;
+    text-align: center;
   }
 }
 
