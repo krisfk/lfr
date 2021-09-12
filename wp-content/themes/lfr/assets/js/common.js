@@ -52,7 +52,7 @@ $(function () {
       }
 
       if (
-        nowPos > $('#client-process').offset().top - nh &&
+        nowPos > $('#client-process').offset().top - nh - 10 &&
         nowPos <= $('#expertise').offset().top - nh
       ) {
         $('.top-menu-ul a').removeClass('active');
@@ -60,8 +60,8 @@ $(function () {
       }
 
       if (
-        nowPos > $('#expertise').offset().top - nh &&
-        nowPos <= $('#the-team').offset().top - nh - 10
+        nowPos > $('#expertise').offset().top - nh - 10 &&
+        nowPos <= $('#the-team').offset().top - nh
       ) {
         $('.top-menu-ul a').removeClass('active');
         $('.top-menu-ul a.expertise').addClass('active');
