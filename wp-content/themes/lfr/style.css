@@ -344,6 +344,12 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
+  .staff-row img {
+    max-width: 300px;
+    margin: 0 auto 1rem auto;
+    display: block;
+    /* margin: 0; */
+  }
   .mobile-reverse {
     flex-direction: column-reverse;
   }
