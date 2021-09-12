@@ -178,6 +178,7 @@ body .din {
   text-align: center;
   top: 15%;
   width: fit-content;
+  text-shadow: #153d89 0px 0px 7px, #153d89 0px 0px 7px, #153d89 0px 0px 7px;
 }
 
 .big-title {
@@ -483,7 +484,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   .banner-text {
-    font-size: 1.3rem;
+    font-size: 1.85rem;
     padding: 2.5rem 1.5rem;
     text-shadow: #153d89 0px 0px 7px, #153d89 0px 0px 7px, #153d89 0px 0px 7px;
   }
