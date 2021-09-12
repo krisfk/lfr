@@ -419,10 +419,17 @@ footer {
 
 /*  */
 
+.mobile-menu-btn {
+  display: none;
+}
+
 @media screen and (max-width: 1200px) {
 }
 
 @media screen and (max-width: 991px) {
+  .mobile-menu-btn {
+    display: block;
+  }
   .banner-div {
     margin: 48px 0 0 0;
   }

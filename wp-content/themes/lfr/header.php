@@ -64,7 +64,7 @@
 
                                     <div class="col-8 text-end">
 
-                                        <div id="nav-icon3" class="">
+                                        <div id="nav-icon3" class="mobile-menu-btn">
                                             <span></span>
                                             <span></span>
                                             <span></span>
