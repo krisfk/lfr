@@ -83,5 +83,6 @@ $(function () {
 
   $('#nav-icon3').click(function () {
     $(this).toggleClass('open');
+    $('body').toggleClass('show-mobile-menu');
   });
 });
