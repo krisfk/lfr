@@ -25,12 +25,12 @@
 
         <div class="row align-items-center">
 
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12 ">
                 LICENCE NO. 440245 <br>
                 &copy; <?php echo date('Y');?> LFR Hong Kong Limited. All rights reserved.
 
             </div>
-            <div class="col-6 text-end">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12 text-end">
 
                 <ul class="sm-ul">
                     <li> <a href="#"><img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-1@2x-1.png"
