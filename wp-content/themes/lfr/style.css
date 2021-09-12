@@ -436,10 +436,16 @@ footer {
     width: 100%;
     height: 100%;
     z-index: 1000;
-    background: #fff;
+    margin: 0;
+    background: rgb(255 255 255 / 85%);
+    padding: 5.5rem 0 0 1.5rem;
   }
   .top-menu-ul li {
     display: inline-block;
+    width: 100%;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    text-align: left;
   }
 }
 
