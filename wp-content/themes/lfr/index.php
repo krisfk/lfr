@@ -211,10 +211,10 @@ get_header();
 
     <div class="row  expertise-row mt-4 gx-0">
 
-        <div class="col-7">
+        <div class="col-lg-7 col-md-12 col-sm-12 col-12 ">
             <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-5@2x-50.jpg" alt="">
         </div>
-        <div class=" col-5 g-0 ps-4  pb-5">
+        <div class=" col-lg-5 col-md-12 col-sm-12 col-12  g-0 ps-4 pb-5">
 
             <div class="expertise-title">Hedge Funds
             </div>
@@ -234,7 +234,7 @@ get_header();
 
     <div class="row  expertise-row mt-4 gx-0">
 
-        <div class="col-5 g-0 ps-4  pb-5">
+        <div class=" col-lg-5 col-md-12 col-sm-12 col-12  g-0 ps-4 pb-5">
 
 
 
@@ -257,7 +257,7 @@ get_header();
             </ul>
         </div>
 
-        <div class="col-7">
+        <div class="col-lg-7 col-md-12 col-sm-12 col-12 ">
             <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-6@2x-50.jpg" alt="">
         </div>
 
