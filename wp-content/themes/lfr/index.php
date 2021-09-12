@@ -33,41 +33,43 @@ get_header();
 
     <div class="big-title mb-4">SERVICES</div>
 
+    <div class="row justify-content-center">
+        <div class="service-table-wrapper col-lg-6 col-md-12 col-sm-12 col-12  mb-4">
+            <table class="service-table ">
+                <tr>
+                    <td class="icon-td">
+                        <img class="w-75" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x.png" alt="">
+                        <div class="service-name">Executive Search</div>
 
-    <div class="service-table-wrapper col-lg-6 col-md-12 col-sm-12 col-12  mb-4">
-        <table class="service-table ">
-            <tr>
-                <td class="icon-td">
-                    <img class="w-75" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x.png" alt="">
-                    <div class="service-name">Executive Search</div>
+                    </td>
+                    <td class="content-td">Identifying and closing on the most qualified talent
+                        based
+                        upon
+                        an
+                        agreed ideal
+                        candidate specification</td>
+                </tr>
+            </table>
+        </div>
 
-                </td>
-                <td class="content-td">Identifying and closing on the most qualified talent
-                    based
-                    upon
-                    an
-                    agreed ideal
-                    candidate specification</td>
-            </tr>
-        </table>
-    </div>
 
-    <div class="service-table-wrapper col-lg-6 col-md-12 col-sm-12 col-12  mb-4">
-        <table class="service-table ">
-            <tr>
-                <td class="icon-td">
-                    <img class="w-75" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x.png" alt="">
-                    <div class="service-name">Executive Search</div>
+        <div class="service-table-wrapper col-lg-6 col-md-12 col-sm-12 col-12  mb-4">
+            <table class="service-table ">
+                <tr>
+                    <td class="icon-td">
+                        <img class="w-75" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x.png" alt="">
+                        <div class="service-name">Executive Search</div>
 
-                </td>
-                <td class="content-td">Identifying and closing on the most qualified talent
-                    based
-                    upon
-                    an
-                    agreed ideal
-                    candidate specification</td>
-            </tr>
-        </table>
+                    </td>
+                    <td class="content-td">Identifying and closing on the most qualified talent
+                        based
+                        upon
+                        an
+                        agreed ideal
+                        candidate specification</td>
+                </tr>
+            </table>
+        </div>
     </div>
 
 
