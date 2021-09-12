@@ -201,74 +201,7 @@ if( have_rows('teammates') )
     }
 }
 ?>
-        <!-- <div class="row staff-row mb-5">
 
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12 ">
-                <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-7@2x-50.jpg" alt="">
-            </div>
-            <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
-
-                <div class="staff-name">Roger Leader – Director
-                </div>
-                <div class="mt-4">Roger is a Managing Director of LFR Hong Kong Limited, he has over 30 years of
-                    experience in
-                    Financial Services recruitment, with a successful track record recruiting for all levels of senior
-                    management within investment and private banks, asset management, both long only and hedge funds,
-                    private equity, insurance companies and other financial institutions.
-                </div>
-            </div>
-        </div>
-        <div class="row staff-row mb-5">
-
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12 ">
-                <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-8@2x-50.jpg" alt="">
-            </div>
-            <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
-
-                <div class="staff-name">Michelle Ng - Consultant
-
-                </div>
-                <div class="mt-4">Michelle is a consultant of LFR Hong Kong Limited. She is responsible for undertaking
-                    search assignment for our clients’ mandates. She also builds industry relationship in order to gain
-                    a better understanding of clients' recruitment needs and requirements according to the industry,
-                    work culture and environment.
-
-                </div>
-            </div>
-        </div>
-        <div class="row staff-row mb-5">
-
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12 ">
-                <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-9@2x-50.jpg" alt="">
-            </div>
-            <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
-
-                <div class="staff-name">Zen Fong – Crypto Currency and Blockchain Consultant
-                </div>
-                <div class="mt-4">Zen currently acts as a Crypto Consultant for LFR Hong Kong Limited, he has a decade
-                    of experience in cryptocurrency investment, research and also blockchain technology. Zen is
-                    responsible for business development and talent acquisition.
-
-                </div>
-            </div>
-        </div>
-        <div class="row staff-row mb-5">
-
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12 ">
-                <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-10@2x-50-1.jpg" alt="">
-            </div>
-            <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
-
-                <div class="staff-name">Ginny Tjiu - Researcher
-                </div>
-                <div class="mt-4">Ginny is a Researcher and responsible for conducting the initial screening process and
-                    database management for specific mandates. She also provides administrative support to the
-                    recruitment function and coordinates with the relevant consultant to source candidates who meet the
-                    criteria in a particular search.
-
-                </div>
-            </div>
-        </div> -->
 
     </div>
 
