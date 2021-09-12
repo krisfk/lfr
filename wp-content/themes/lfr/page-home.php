@@ -174,7 +174,34 @@ if( have_rows('expertises_detail') )
     <div class="big-title">THE TEAM</div>
 
     <div class="container inner-container mt-4">
+
+        <?php
+    
+if( have_rows('teammates') )
+{
+    while( have_rows('teammates') ) { 
+        the_row();
+        ?>
         <div class="row staff-row mb-5">
+
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12 ">
+                <img class="w-100"
+                    src="<?php echo  wp_get_attachment_image_src(get_sub_field('teammate_img'),'Full')[0];?>" alt="">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
+
+                <div class="staff-name"><?php echo get_sub_field('teammate_name');?>
+                </div>
+                <div class="mt-4"><?php echo get_sub_field('teammate_intro');?>
+                </div>
+            </div>
+        </div>
+        <?php
+        
+    }
+}
+?>
+        <!-- <div class="row staff-row mb-5">
 
             <div class="col-lg-3 col-md-3 col-sm-12 col-12 ">
                 <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-7@2x-50.jpg" alt="">
@@ -241,7 +268,7 @@ if( have_rows('expertises_detail') )
 
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </div>
 
