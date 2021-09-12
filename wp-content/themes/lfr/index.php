@@ -34,14 +34,14 @@ get_header();
     <div class="big-title mb-4">SERVICES</div>
 
 
-    <table>
+    <table class="service-table">
         <tr>
-            <td>
+            <td class="icon-td">
                 <img class="w-75" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x.png" alt="">
                 <div class="service-name">Executive Search</div>
 
             </td>
-            <td>Identifying and closing on the most qualified talent
+            <td class="content-d">Identifying and closing on the most qualified talent
                 based
                 upon
                 an

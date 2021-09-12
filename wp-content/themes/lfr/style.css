@@ -437,6 +437,18 @@ footer {
   z-index: 2000;
 }
 
+.service-table {
+}
+
+.service-table .icon-td {
+  background: #fff;
+}
+
+.service-table .service-td {
+  background: #9eb3c8;
+  color: #56595b;
+}
+
 @media screen and (max-width: 1200px) {
   .mobile-menu-btn {
     display: block;
