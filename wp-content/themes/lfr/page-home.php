@@ -24,8 +24,7 @@ get_header();
 
 <div class="position-relative banner-div">
 
-    <div class="banner-text din">LFR Hong Kong Limited is an Executive Search Firm headquartered in Hong Kong, <br>
-        specialising in Financial Services, with a geographic focus on Asia Pacific. </div>
+    <div class="banner-text din"><?php echo get_field('banner_txt');?> </div>
 
     <img class="w-100" src="<?php echo  wp_get_attachment_image_src(get_field('banner_img'),'Full')[0];?>" alt="">
 </div>
