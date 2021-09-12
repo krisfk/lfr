@@ -102,13 +102,8 @@ if( have_rows('services') )
     <div class="mt-4">
         <div class="row justify-content-center g-0">
             <div class="col-lg-6 col-md-11 col-sm-11 col-11 ">
-                Our expertise spans the key revenue generating functions in the Investment Banks and Private Banks
-                and Asset
-                Management companies for both the traditional and hedge fund strategies, plus other asset classes such
-                as
-                Private Equity and Real Estate. <br> <br>
 
-                A detailed list is summarised as follows.
+                <?php echo get_field('expertise');?>
             </div>
         </div>
     </div>
