@@ -527,6 +527,9 @@ footer {
     padding: 2.5rem 1.5rem;
     text-shadow: #153d89 0px 0px 7px, #153d89 0px 0px 7px, #153d89 0px 0px 7px;
   }
+  footer {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
