@@ -451,6 +451,7 @@ footer {
   background: #9eb3c8;
   color: #56595b;
   width: 60%;
+  padding: 0 1.5rem;
 }
 
 .service-table .service-name {
