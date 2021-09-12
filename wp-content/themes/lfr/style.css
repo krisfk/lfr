@@ -488,6 +488,9 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+  .banner-text {
+    font-size: 1.2rem;
+  }
 }
 
 /* .nav-space {
