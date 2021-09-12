@@ -6,7 +6,7 @@ $(function () {
     $(this).addClass('active');
   });
 
-  $('.top-menu-ul li a').click(function () {
+  $('.top-menu-ul li a,.logo-a').click(function () {
     $('body').removeClass('show-mobile-menu');
     $('.mobile-menu-btn').removeClass('open');
     animating_scroll = true;
