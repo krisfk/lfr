@@ -50,7 +50,7 @@
                         <div class="container">
 
 
-                            <div class="top-div mt-4 mb-4">
+                            <div class="top-div mt-lg-4 mt-md-4 mt-sm-2 mt-2  mb-lg-4 mb-md-4 mb-sm-2 mb-lg-2  ">
 
 
                                 <div class="row align-items-center">
