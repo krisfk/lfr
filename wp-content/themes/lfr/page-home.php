@@ -28,7 +28,7 @@ get_header();
         specialising in Financial Services, with a geographic focus on Asia Pacific. </div>
 
     <?php
-   echo wp_get_attachment_image_src(get_field('banner_img'))[0];
+   echo wp_get_attachment_image_src(get_field('banner_img'),'Full')[0];
    ?>
     <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-2@2x-50-scaled.jpg" alt="">
 </div>
