@@ -19,7 +19,6 @@ Twenty Twenty-One WordPress Theme, (C) 2020 WordPress.org
 Twenty Twenty-One is distributed under the terms of the GNU GPL.
 */
 
-
 /**
  * SETTINGS
  * File-header..........The file header for the themes style.css file.
@@ -96,255 +95,264 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
  * Measure..............The width of a line of text, in characters.
  */
 
-
 /* Categories 01 to 03 are the basics. */
 
 @font-face {
-    font-family: 'DIN';
-    src: url('./assets/fonts/DINRegularAlternate.woff2') format('woff2'), url('./assets/fonts/DINRegularAlternate.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'DIN';
+  src: url('./assets/fonts/DINRegularAlternate.woff2') format('woff2'),
+    url('./assets/fonts/DINRegularAlternate.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Myriad Pro';
-    src: url('./assets/fonts/MyriadPro-Regular.woff2') format('woff2'), url('./assets/fonts/MyriadPro-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Myriad Pro';
+  src: url('./assets/fonts/MyriadPro-Regular.woff2') format('woff2'),
+    url('./assets/fonts/MyriadPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'DIN Alternate';
-    src: url('./assets/fonts/DINAlternate-Bold.woff2') format('woff2'), url('./assets/fonts/DINAlternate-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'DIN Alternate';
+  src: url('./assets/fonts/DINAlternate-Bold.woff2') format('woff2'),
+    url('./assets/fonts/DINAlternate-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
-    font-family: 'Myriad Pro' !important;
+  font-family: 'Myriad Pro' !important;
 }
 
 body .din {
-    font-family: 'DIN' !important;
+  font-family: 'DIN' !important;
 }
 
 .logo-a img {
-    height: 50px;
+  height: 50px;
 }
 
 .top-menu-ul {
-    display: inline-block;
-    margin: 0;
+  display: inline-block;
+  margin: 0;
 }
 
 .top-menu-ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0 0 0 40px;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 0 0 40px;
 }
 
 .top-menu-ul li a {
-    text-decoration: none;
-    color: #606060;
-    font-family: 'Myriad Pro';
-    padding: 0 0 0.3rem 0;
+  text-decoration: none;
+  color: #606060;
+  font-family: 'Myriad Pro';
+  padding: 0 0 0.3rem 0;
 }
 
 .top-menu-ul li a.active {
-    border-bottom: 2px solid #3eb2e6;
+  border-bottom: 2px solid #3eb2e6;
 }
 
 #page {
-    max-width: 1920px;
-    margin: 0 auto;
-    display: block;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: block;
 }
 
 .banner-text {
-    position: absolute;
-    color: #fff;
-    z-index: 100;
-    font-size: 1.85rem;
-    left: 50%;
-    transform: translate(-50%, 0);
-    text-align: center;
-    top: 15%;
-    width: fit-content;
+  position: absolute;
+  color: #fff;
+  z-index: 100;
+  font-size: 1.85rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  top: 15%;
+  width: fit-content;
 }
 
 .big-title {
-    text-align: center;
-    font-size: 2rem;
-    font-family: 'DIN' !important;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'DIN' !important;
 }
 
 .service-content-txt {
-    /* background: #9eb3c8; */
-    color: #56595b;
+  /* background: #9eb3c8; */
+  color: #56595b;
 }
 
 .service-content-row {
-    background: #9eb3c8;
+  background: #9eb3c8;
 }
 
 .service-content-row .icon-col {
-    background: #fff;
-    text-align: center;
+  background: #fff;
+  text-align: center;
 }
 
 .service-content-row .icon-col .service-name {
-    display: block;
-    font-family: 'DIN Alternate' !important;
-    color: #9eb3c8;
-    text-align: center;
-    font-weight: bold;
+  display: block;
+  font-family: 'DIN Alternate' !important;
+  color: #9eb3c8;
+  text-align: center;
+  font-weight: bold;
 }
 
 .service-div {
-    border: 1px solid #56687a;
+  border: 1px solid #56687a;
 }
 
 .blue-bg {
-    background: url(./assets/images/blue-bg.jpg);
-    background-size: cover;
-    color: #fff;
+  background: url(./assets/images/blue-bg.jpg);
+  background-size: cover;
+  color: #fff;
 }
 
 .expertise-title {
-    color: #56687a;
-    font-size: 1.4rem;
-    font-family: 'DIN Alternate' !important;
-    font-weight: bold;
-    margin: 2rem 0 1rem 0;
+  color: #56687a;
+  font-size: 1.4rem;
+  font-family: 'DIN Alternate' !important;
+  font-weight: bold;
+  margin: 2rem 0 1rem 0;
 }
 
 .expertise-row {
-    background: #9eb3c8;
-    color: #fff;
+  background: #9eb3c8;
+  color: #fff;
 }
 
 .expertise-row ul {
-    margin: 0 0 0 1rem;
-    padding: 0;
+  margin: 0 0 0 1rem;
+  padding: 0;
 }
 
 .expertise-row ul li {
-    list-style-type: none;
-    line-height: 1.2;
+  list-style-type: none;
+  line-height: 1.2;
 }
 
 .expertise-row ul li::before {
-    content: '\2022';
-    font-size: 43px;
-    line-height: 1;
-    height: 10px;
-    display: block;
-    position: relative;
-    top: -0.4rem;
-    left: -1.2rem;
+  content: '\2022';
+  font-size: 43px;
+  line-height: 1;
+  height: 10px;
+  display: block;
+  position: relative;
+  top: -0.4rem;
+  left: -1.2rem;
 }
 
 .team-div {
-    background: url(./assets/images/team-bg.jpg);
-    background-size: cover;
-    color: #fff;
-    /* color: #fff; */
+  background: url(./assets/images/team-bg.jpg);
+  background-size: cover;
+  color: #fff;
+  /* color: #fff; */
 }
 
 .staff-name {
-    font-size: 2rem;
-    color: #9eb3c8;
-    font-family: 'DIN Alternate' !important;
+  font-size: 2rem;
+  color: #9eb3c8;
+  font-family: 'DIN Alternate' !important;
 }
 
 .inner-container {
-    max-width: 1100px !important;
+  max-width: 1100px !important;
 }
 
 .contact-us-div {
-    background: url(./assets/images/contact-us-bg.jpg);
-    background-size: cover;
-    color: #9eb3c8;
+  background: url(./assets/images/contact-us-bg.jpg);
+  background-size: cover;
+  color: #9eb3c8;
 }
 
 .contact-us-div .big-title {
-    color: #606060;
+  color: #606060;
 }
 
 .contact-us-div label {
-    display: block;
-    margin: 0 0 0.5rem 0;
-    font-family: 'DIN Alternate' !important;
+  display: block;
+  margin: 0 0 0.5rem 0;
+  font-family: 'DIN Alternate' !important;
 }
 
 .contact-us-div input {
-    font-family: 'DIN' !important;
+  font-family: 'DIN' !important;
 }
 
 .request-info-btn {
-    display: inline-block;
-    background: #9eb3c8;
-    color: #fff;
-    font-family: 'DIN' !important;
-    padding: 0.5rem 1rem;
-    /* margin: 0 auto; */
-    border-radius: 8px;
-    text-decoration: none;
+  display: inline-block;
+  background: #9eb3c8;
+  color: #fff;
+  font-family: 'DIN' !important;
+  padding: 0.5rem 1rem;
+  /* margin: 0 auto; */
+  border-radius: 8px;
+  text-decoration: none;
 }
 
 .request-info-btn:hover {
-    color: #fff;
+  color: #fff;
 }
 
 footer {
-    background: #0033a1;
-    color: #fff;
-    font-size: 0.8rem;
+  background: #0033a1;
+  color: #fff;
+  font-size: 0.8rem;
 }
 
 .sm-ul {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .sm-ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0 0 0 0.7rem;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 0 0 0.7rem;
 }
 
 .sm-ul li img {
-    height: 1.2rem;
+  height: 1.2rem;
 }
 
 .fixed-navigation {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    /* height: 100px; */
-    z-index: 1000;
-    background: #fff;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 100px; */
+  z-index: 1000;
+  background: #fff;
 }
 
 .banner-div {
-    margin: 98px 0 0 0;
+  margin: 98px 0 0 0;
 }
 
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1200px) {
+}
 
-@media screen and (max-width: 991px) {}
+@media screen and (max-width: 991px) {
+  .mobile-reverse {
+    flex-direction: column-reverse;
+  }
+}
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+}
 
-@media screen and (max-width: 640px) {}
+@media screen and (max-width: 640px) {
+}
 
-@media screen and (max-width: 480px) {}
-
+@media screen and (max-width: 480px) {
+}
 
 /* .nav-space {
     display: block;

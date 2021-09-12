@@ -183,7 +183,8 @@ get_header();
             </ul>
         </div>
     </div>
-    <div class="row  expertise-row mt-4 gx-0">
+
+    <div class="row  expertise-row mt-4 gx-0 mobile-reverse">
 
         <div class="col-5 g-0 ps-4">
 
