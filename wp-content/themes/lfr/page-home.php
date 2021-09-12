@@ -251,6 +251,8 @@ if( have_rows('teammates') )
             <div class="col-lg-5 col-md-5 col-sm-12 col-12  mb-4">
                 <label for="industry">Industry</label>
                 <input id="industry" type="text" class="form-control" placeholder="Enter your companys industry here">
+                <div class="form-error name-error text-danger mt-2">Please enter your companys industry.</div>
+
             </div>
 
 
