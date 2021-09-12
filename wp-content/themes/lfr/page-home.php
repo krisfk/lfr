@@ -165,7 +165,7 @@ if( have_rows('expertises_detail') )
 }
 ?>
 
-    <div class="row  expertise-row mt-4 gx-0">
+    <!-- <div class="row  expertise-row mt-4 gx-0">
 
         <div class="col-lg-7 col-md-12 col-sm-12 col-12 ">
             <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x-50.jpg" alt="">
@@ -262,7 +262,7 @@ if( have_rows('expertises_detail') )
             <img class="w-100" src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-6@2x-50.jpg" alt="">
         </div>
 
-    </div>
+    </div> -->
 
 
 </div>
