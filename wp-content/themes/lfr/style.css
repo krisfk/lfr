@@ -360,6 +360,8 @@ footer {
   cursor: pointer;
   zoom: 0.5;
   float: right;
+  position: relative;
+  z-index: 2000;
 }
 
 #nav-icon3 span {
