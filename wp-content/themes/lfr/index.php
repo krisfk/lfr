@@ -274,10 +274,10 @@ get_header();
     <div class="container inner-container mt-4">
         <div class="row staff-row mb-5">
 
-            <div class="col-3"><img class="w-100"
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12 "><img class="w-100"
                     src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-7@2x-50.jpg" alt="">
             </div>
-            <div class="col-9">
+            <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
 
                 <div class="staff-name">Roger Leader – Director
                 </div>
