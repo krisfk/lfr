@@ -283,27 +283,41 @@ $(function() {
         var company = $('#company').val();
         var phone_number = $('#phone-number').val();
         var industry = $('#industry').val();
+        var valid = true;
 
 
         if (!full_name) {
             $('.full-name-error').fadeIn(0);
+            valid = false;
         }
         if (!location) {
             $('.location-error').fadeIn(0);
+            valid = false;
+
+            valid = false;
+
         }
         if (!validateEmail(email_address)) {
             $('.email-error').fadeIn(0);
+            valid = false;
+
         }
         if (!company) {
             $('.company-error').fadeIn(0);
+            valid = false;
+
         }
 
         if (!phone_number) {
             $('.phone-number-error').fadeIn(0);
+            valid = false;
+
         }
 
         if (!industry) {
             $('.industry-error').fadeIn(0);
+            valid = false;
+
         }
 
 
