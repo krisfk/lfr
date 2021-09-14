@@ -229,7 +229,8 @@ if( have_rows('teammates') )
             <div class="col-lg-5 col-md-5 col-sm-12 col-12  mb-4">
                 <label for="email-address">Email Address</label>
                 <input id="email-address" type="text" class="form-control" placeholder="Enter your email address here">
-                <div class="form-error email-error text-danger mt-2">Please enter your email address.</div>
+                <div class="form-error email-error text-danger mt-2">The email address input format is not correct.
+                </div>
 
             </div>
             <div class="col-lg-5 col-md-5 col-sm-12 col-12  mb-4">
