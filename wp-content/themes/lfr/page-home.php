@@ -268,7 +268,6 @@ function validateEmail(email) {
     return re.test(email);
 }
 
-
 $(function() {
 
     $('.form-error').fadeOut(0);
@@ -289,7 +288,7 @@ $(function() {
         if (!location) {
             $('.location-error').fadeIn(0);
         }
-        if (validateEmail(email_address)) {
+        if (!validateEmail(email_address)) {
             $('.email-error').fadeIn(0);
         }
     })
