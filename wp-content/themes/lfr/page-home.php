@@ -281,6 +281,8 @@ $(function() {
         var email_address = $('#email-address').val();
         var company = $('#company').val();
         var phone_number = $('#phone-number').val();
+        var industry = $('#industry').val();
+
 
         if (!full_name) {
             $('.full-name-error').fadeIn(0);
@@ -296,7 +298,11 @@ $(function() {
         }
 
         if (!phone_number) {
-            $('.phone-number').fadeIn(0);
+            $('.phone-number-error').fadeIn(0);
+        }
+
+        if (!industry) {
+            $('.industry-error').fadeIn(0);
         }
 
 
