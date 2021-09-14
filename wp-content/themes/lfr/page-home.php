@@ -329,7 +329,7 @@ $(function() {
                 data: {
                     full_name: full_name,
                     location: location,
-                    email: email,
+                    email: email_address,
                     company: company,
                     phone_number: phone_number,
                     industry: industry,
