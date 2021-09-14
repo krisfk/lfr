@@ -263,9 +263,37 @@ if( have_rows('teammates') )
     </div>
 </div>
 <script type="text/javascript">
+function validateEmail(email) {
+    const re =
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+}
+
 $(function() {
 
     $('.form-error').fadeOut(0);
+
+    $('.request-info-btn').click(function(e) {
+
+        e.preventDefault(0);
+
+        var full_name = $('#full-name').val();
+        var location = $('#location').val();
+        var email_address = $('#email-address').val();
+        var company = $('#company').val();
+        var phone_number = $('#phone-number').val();
+
+        if (!full_name) {
+            $('.full-name-error').fadeIn(0);
+        }
+        if (!location) {
+            $('.location-error').fadeIn(0);
+        }
+        if (validateEmail(email_address)) {
+            $('.email-error').fadeIn(0);
+        }
+    })
+
 
 })
 </script>
