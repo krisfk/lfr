@@ -334,7 +334,7 @@ $(function() {
                     company: company,
                     phone_number: phone_number,
                     industry: industry,
-                    ip: ip
+                    // ip: ip
                 },
                 dataType: "json",
             }).done(function(response) {
