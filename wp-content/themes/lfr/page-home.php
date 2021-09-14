@@ -294,6 +294,12 @@ $(function() {
         if (!company) {
             $('.company-error').fadeIn(0);
         }
+
+        if (!phone_number) {
+            $('.phone-number').fadeIn(0);
+        }
+
+
     })
 
 
