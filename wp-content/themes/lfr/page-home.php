@@ -273,6 +273,7 @@ $(function() {
     $('.form-error').fadeOut(0);
 
     $('.request-info-btn').click(function(e) {
+        $('.form-error').fadeOut(0);
 
         e.preventDefault(0);
 
