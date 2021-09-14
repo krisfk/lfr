@@ -325,8 +325,7 @@ $(function() {
 
             $.ajax({
                 type: "POST",
-                url: get_site_url().
-                '/wp-json/api/contact-us',
+                url: 'http://64.225.99.121/wp-json/api/contact-us',
                 data: {
                     full_name: full_name,
                     location: location,
@@ -334,7 +333,6 @@ $(function() {
                     company: company,
                     phone_number: phone_number,
                     industry: industry,
-                    submission_date_time: submission_date_time,
                     ip: ip
                 },
                 dataType: "json",
