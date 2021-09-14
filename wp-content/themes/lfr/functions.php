@@ -694,3 +694,85 @@ function add_slug_body_class( $classes ) {
 	add_filter( 'body_class', 'add_slug_body_class' );
 	
 	
+
+	add_action( 'rest_api_init', function () {
+		register_rest_route( 'api', '/contact-us', array(
+		  'methods' => 'POST',
+		  'callback' => 'apply_func',
+		) );
+	  } );
+
+	  add_action( 'rest_api_init', function () {
+		register_rest_route( 'api', '/test', array(
+		  'methods' => 'GET',
+		  'callback' => 'test_func',
+		) );
+	  } );
+
+	  
+function test_func()
+{
+	echo 11;
+}
+
+function apply_func($request)
+{
+	  
+		  // insert the post and set the category
+	  $post_id = wp_insert_post(array (
+		  'post_type' => 'contact-us',
+		  'post_title' => 'from '.$request->get_param( 'full_name' ),
+		  'post_status' => 'publish',
+		  'comment_status' => 'closed',   // if you prefer
+		  'ping_status' => 'closed',      // if you prefer
+	  ));
+	  
+	  if ($post_id) {
+		  add_post_meta($post_id, 'full_name', $request->get_param( 'full_name' ));
+		  add_post_meta($post_id, 'location', $request->get_param( 'location' ));
+		  add_post_meta($post_id, 'email', $request->get_param( 'email' ));
+		  add_post_meta($post_id, 'company', $request->get_param( 'company' ));
+		  add_post_meta($post_id, 'phone_number', $request->get_param( 'phone_number' ));
+		  add_post_meta($post_id, 'industry', $request->get_param( 'industry' ));
+		  add_post_meta($post_id, 'submission_date_time',current_time( 'mysql' )  );
+	  
+	  
+		  # PHP7+
+		  $clientIP = $_SERVER['HTTP_CLIENT_IP'] 
+		  ?? $_SERVER["HTTP_CF_CONNECTING_IP"] # when behind cloudflare
+		  ?? $_SERVER['HTTP_X_FORWARDED'] 
+		  ?? $_SERVER['HTTP_X_FORWARDED_FOR'] 
+		  ?? $_SERVER['HTTP_FORWARDED'] 
+		  ?? $_SERVER['HTTP_FORWARDED_FOR'] 
+		  ?? $_SERVER['REMOTE_ADDR'] 
+		  ?? '0.0.0.0';
+	  
+		  # Earlier than PHP7
+		  $clientIP = '0.0.0.0';
+	  
+		  if (isset($_SERVER['HTTP_CLIENT_IP'])) {
+		  $clientIP = $_SERVER['HTTP_CLIENT_IP'];
+		  } elseif (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) {
+		  # when behind cloudflare
+		  $clientIP = $_SERVER['HTTP_CF_CONNECTING_IP']; 
+		  } elseif (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+		  $clientIP = $_SERVER['HTTP_X_FORWARDED_FOR'];
+		  } elseif (isset($_SERVER['HTTP_X_FORWARDED'])) {
+		  $clientIP = $_SERVER['HTTP_X_FORWARDED'];
+		  } elseif (isset($_SERVER['HTTP_FORWARDED_FOR'])) {
+		  $clientIP = $_SERVER['HTTP_FORWARDED_FOR'];
+		  } elseif (isset($_SERVER['HTTP_FORWARDED'])) {
+		  $clientIP = $_SERVER['HTTP_FORWARDED'];
+		  } elseif (isset($_SERVER['REMOTE_ADDR'])) {
+		  $clientIP = $_SERVER['REMOTE_ADDR'];
+		  }
+	  
+		  add_post_meta($post_id, 'ip', $clientIP);
+	  
+		  echo json_encode(array("status"=>"1", "msg"=>"Record was added"));
+	  
+		  
+	  }
+	  
+}
+	  
