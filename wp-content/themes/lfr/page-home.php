@@ -211,7 +211,9 @@ if( have_rows('teammates') )
 
     <div class="container">
         <div class="big-title">CONTACT US</div>
-        <div class="row mt-5 justify-content-center">
+        <!-- $('.result-txt-div').html('您的申請已發送，我們會盡快再聯絡您，謝謝。'); -->
+
+        <div class="row mt-5 justify-content-center contact-us-form-div">
             <div class="col-lg-5 col-md-5 col-sm-12 col-12  mb-4">
                 <label for="full-name">Full Name</label>
                 <input id="full-name" type="text" class="form-control" placeholder="Enter your full name here">
@@ -260,6 +262,10 @@ if( have_rows('teammates') )
                 <a href="javascript:void(0);" class="request-info-btn">REQUEST INFO</a>
             </div>
         </div>
+
+        <div class="result-txt-div mt-5"></div>
+
+
     </div>
 </div>
 <script type="text/javascript">
@@ -314,7 +320,36 @@ $(function() {
         }
 
 
-        if (!valid) {
+        if (valid) {
+
+
+            $.ajax({
+                type: "POST",
+                url: get_site_url().
+                '/wp-json/api/contact-us',
+                data: {
+                    full_name: full_name,
+                    location: location,
+                    email: email,
+                    company: company,
+                    phone_number: phone_number,
+                    industry: industry,
+                    submission_date_time: submission_date_time,
+                    ip: ip
+                },
+                dataType: "json",
+            }).done(function(response) {
+
+                if (response.status) {
+
+                    $('.contact-us-form-div').fadeOut(0);
+                    $('.result-txt-div').html('您的申請已發送，我們會盡快再聯絡您，謝謝。');
+
+                }
+
+            }).fail(function(Response) {});
+
+
 
         }
 
