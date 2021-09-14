@@ -291,6 +291,9 @@ $(function() {
         if (!validateEmail(email_address)) {
             $('.email-error').fadeIn(0);
         }
+        if (!company) {
+            $('.company-error').fadeIn(0);
+        }
     })
 
 
