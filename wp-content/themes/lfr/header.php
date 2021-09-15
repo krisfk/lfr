@@ -58,7 +58,7 @@
                                     <div class="col-4">
 
                                         <a class="logo-a" href="#"><img
-                                                src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-1@2x.png"
+                                                src="https://lfrhk.com/wp-content/uploads/2021/09/Asset-1@2x.png"
                                                 alt=""></a>
                                     </div>
 
