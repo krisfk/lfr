@@ -326,7 +326,7 @@ $(function() {
 
             $.ajax({
                 type: "POST",
-                url: 'http://64.225.99.121/wp-json/api/contact-us',
+                url: 'https://lfrhk.com/wp-json/api/contact-us',
                 data: {
                     full_name: full_name,
                     location: location,

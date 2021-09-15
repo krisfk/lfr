@@ -33,15 +33,15 @@
             <div class="col-lg-6 col-md-6 col-sm-6 col-12 text-end">
 
                 <ul class="sm-ul">
-                    <li> <a href="#"><img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-1@2x-1.png"
+                    <li> <a href="#"><img src="https://lfrhk.com/wp-content/uploads/2021/09/Asset-1@2x-1.png"
                                 alt=""></a></li>
-                    <li> <a href="#"><img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-2@2x.png"
+                    <li> <a href="#"><img src="https://lfrhk.com/wp-content/uploads/2021/09/Asset-2@2x.png" alt=""></a>
+                    </li>
+                    <li> <a href="#"><img src="https://lfrhk.com/wp-content/uploads/2021/09/Asset-3@2x-1.png"
                                 alt=""></a></li>
-                    <li> <a href="#"><img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-3@2x-1.png"
+                    <li> <a href="#"><img src="https://lfrhk.com/wp-content/uploads/2021/09/Asset-4@2x-1.png"
                                 alt=""></a></li>
-                    <li> <a href="#"><img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-4@2x-1.png"
-                                alt=""></a></li>
-                    <li> <a href="#"><img src="http://64.225.99.121/wp-content/uploads/2021/09/Asset-5@2x-1.png"
+                    <li> <a href="#"><img src="https://lfrhk.com/wp-content/uploads/2021/09/Asset-5@2x-1.png"
                                 alt=""></a></li>
                 </ul>
             </div>
