@@ -770,9 +770,23 @@ function apply_func($request)
 		  add_post_meta($post_id, 'ip', $clientIP);
 	  
 		//   wp_mail( $to, $subject, $message);
-		  wp_mail( 'krisfk@gmail.com', 'subject', 'testmsg');
 
+		  $html='<table>';
+		  $html.='<tr><td>Full name:</td><td>'.$request->get_param( 'full_name' ).'</td></tr>';
+		  $html.='<tr><td>Location:</td><td>'.$request->get_param( 'location' ).'</td></tr>';
+		  $html.='<tr><td>Email:</td><td>'.$request->get_param( 'email').'</td></tr>';
 
+		  $html.='<tr><td>Company:</td><td>'.$request->get_param( 'company' ).'</td></tr>';
+		  $html.='<tr><td>Phone Number:</td><td>'.$request->get_param( 'phone_number' ).'</td></tr>';
+		  $html.='<tr><td>Industry:</td><td>'.$request->get_param( 'industry' ).'</td></tr>';
+
+		  $html.='<tr><td>Submission Date Time:</td><td>'.$request->get_param( 'submission_date_time' ).'</td></tr>';
+		  $html.='<tr><td>From IP:</td><td>'.$clientIP.'</td></tr>';
+		  $html.='</table>';
+
+		  $headers[] = 'From: '.$request->get_param( 'full_name' ).' <'.$request->get_param( 'email').'>';
+		  
+		  wp_mail( 'krisfk@gmail.com', 'from '.$request->get_param( 'full_name' ).' enquiry', $html,$headers);
 
 		  echo json_encode(array("status"=>"1", "msg"=>"Record was added"));
 	  
