@@ -772,22 +772,22 @@ function apply_func($request)
 		//   wp_mail( $to, $subject, $message);
 
 		  $html='<table>';
-		  $html.='<tr><td>Full name:</td><td>'.$request->get_param( 'full_name' ).'</td></tr>';
-		  $html.='<tr><td>Location:</td><td>'.$request->get_param( 'location' ).'</td></tr>';
-		  $html.='<tr><td>Email:</td><td>'.$request->get_param( 'email').'</td></tr>';
+		  $html.='<tr><td><b>Full name:</b></td><td>'.$request->get_param( 'full_name' ).'</td></tr>';
+		  $html.='<tr><td><b>Location:</b></td><td>'.$request->get_param( 'location' ).'</td></tr>';
+		  $html.='<tr><td><b>Email:</b></td><td>'.$request->get_param( 'email').'</td></tr>';
 
-		  $html.='<tr><td>Company:</td><td>'.$request->get_param( 'company' ).'</td></tr>';
-		  $html.='<tr><td>Phone Number:</td><td>'.$request->get_param( 'phone_number' ).'</td></tr>';
-		  $html.='<tr><td>Industry:</td><td>'.$request->get_param( 'industry' ).'</td></tr>';
+		  $html.='<tr><td><b>Company:</b></td><td>'.$request->get_param( 'company' ).'</td></tr>';
+		  $html.='<tr><td><b>Phone Number:</b></td><td>'.$request->get_param( 'phone_number' ).'</td></tr>';
+		  $html.='<tr><td><b>Industry:</b></td><td>'.$request->get_param( 'industry' ).'</td></tr>';
 
-		  $html.='<tr><td>Submission Date Time:</td><td>'.$request->get_param( 'submission_date_time' ).'</td></tr>';
-		  $html.='<tr><td>From IP:</td><td>'.$clientIP.'</td></tr>';
+		  $html.='<tr><td><b>Submission Date Time:</b></td><td>'.current_time( 'mysql' ).'</td></tr>';
+		  $html.='<tr><td><b>From IP:</b></td><td>'.$clientIP.'</td></tr>';
 		  $html.='</table>';
 
 		  $headers[] = 'Content-Type: text/html; charset=UTF-8';
 
 		  
-		  $headers[] = 'From: '.$request->get_param( 'full_name' ).' Enquiry <'.$request->get_param( 'email').'>';
+		//   $headers[] = 'From: '.$request->get_param( 'full_name' ).' Enquiry <'.$request->get_param( 'email').'>';
 
 		  wp_mail( 'krisfk@gmail.com', 'from '.$request->get_param( 'full_name' ).' enquiry', $html,$headers);
 
