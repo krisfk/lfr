@@ -155,6 +155,11 @@ body .din {
     color: #606060;
     font-family: 'Myriad Pro';
     padding: 0 0 0.3rem 0;
+    transition: 0.2s all;
+}
+
+.top-menu-ul li a:hover {
+    opacity: 0.85;
 }
 
 .top-menu-ul li a.active {
@@ -303,10 +308,12 @@ body .din {
     /* margin: 0 auto; */
     border-radius: 8px;
     text-decoration: none;
+    transition: 0.2s all;
 }
 
 .request-info-btn:hover {
     color: #fff;
+    opacity: 0.85;
 }
 
 footer {
