@@ -769,6 +769,11 @@ function apply_func($request)
 	  
 		  add_post_meta($post_id, 'ip', $clientIP);
 	  
+		//   wp_mail( $to, $subject, $message);
+		  wp_mail( 'krisfk@gmail.com', 'subject', 'testmsg');
+
+
+
 		  echo json_encode(array("status"=>"1", "msg"=>"Record was added"));
 	  
 		  
