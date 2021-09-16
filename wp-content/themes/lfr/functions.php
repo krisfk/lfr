@@ -789,7 +789,7 @@ function apply_func($request)
 		  
 		//   $headers[] = 'From: '.$request->get_param( 'full_name' ).' Enquiry <'.$request->get_param( 'email').'>';
 
-		  wp_mail( 'krisfk@gmail.com', 'from '.$request->get_param( 'full_name' ).' enquiry', $html,$headers);
+		  wp_mail( 'rogerjleader@gmail.com', 'from '.$request->get_param( 'full_name' ).' enquiry', $html,$headers);
 
 		  echo json_encode(array("status"=>"1", "msg"=>"Record was added"));
 	  
