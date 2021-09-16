@@ -342,7 +342,9 @@ $(function() {
                 if (response.status) {
 
                     $('.contact-us-form-div').fadeOut(0);
-                    $('.result-txt-div').html('您的申請已發送，我們會盡快再聯絡您，謝謝。');
+                    $('.result-txt-div').html(
+                        'Your enquiry has been sent, we will contact you as soon as possible, thank you.'
+                        );
 
                 }
 
