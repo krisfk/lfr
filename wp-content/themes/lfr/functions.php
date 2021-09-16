@@ -784,8 +784,11 @@ function apply_func($request)
 		  $html.='<tr><td>From IP:</td><td>'.$clientIP.'</td></tr>';
 		  $html.='</table>';
 
-		  $headers[] = 'From: '.$request->get_param( 'full_name' ).' <'.$request->get_param( 'email').'>';
+		  $headers[] = 'Content-Type: text/html; charset=UTF-8';
+
 		  
+		  $headers[] = 'From: '.$request->get_param( 'full_name' ).' Enquiry <'.$request->get_param( 'email').'>';
+
 		  wp_mail( 'krisfk@gmail.com', 'from '.$request->get_param( 'full_name' ).' enquiry', $html,$headers);
 
 		  echo json_encode(array("status"=>"1", "msg"=>"Record was added"));
