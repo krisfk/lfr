@@ -39,8 +39,8 @@
                     </li>
                     <li> <a href="#"><img src="https://lfrhk.com/wp-content/uploads/2021/09/Asset-3@2x-1.png"
                                 alt=""></a></li>
-                    <li> <a href="#"><img src="https://lfrhk.com/wp-content/uploads/2021/09/Asset-4@2x-1.png"
-                                alt=""></a></li>
+                    <li> <a href="https://www.linkedin.com/company/lfr-hong-kong-limited/" target="_blank"><img
+                                src="https://lfrhk.com/wp-content/uploads/2021/09/Asset-4@2x-1.png" alt=""></a></li>
                     <li> <a href="#"><img src="https://lfrhk.com/wp-content/uploads/2021/09/Asset-5@2x-1.png"
                                 alt=""></a></li>
                 </ul>
